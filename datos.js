@@ -1,1640 +1,2002 @@
-[
-  {
-    "CEDULA": "80202128",
-    "OPCION-1": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-4": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-5": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-6": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": ""
-  },
-  {
-    "CEDULA": "3070584",
-    "OPCION-1": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-4": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-5": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-6": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": ""
-  },
-  {
-    "CEDULA": "1012325826",
-    "OPCION-1": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-4": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-5": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-6": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "Periodo Especial-1": "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
-    "Periodo Especial-2": "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
-    "Periodo Especial-3": "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "1073610254",
-    "OPCION-1": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-4": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-5": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-6": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "80541737",
-    "OPCION-1": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-4": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-5": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-6": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "9691347",
-    "OPCION-1": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-4": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-5": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-6": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "Periodo Especial-1": "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
-    "Periodo Especial-2": "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
-    "Periodo Especial-3": "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "1075651002",
-    "OPCION-1": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-4": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-5": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-6": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "80396331",
-    "OPCION-1": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-4": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-5": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-6": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "Periodo Especial-1": "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
-    "Periodo Especial-2": "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
-    "Periodo Especial-3": "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "1012334863",
-    "OPCION-1": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-4": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-5": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-6": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "80543645",
-    "OPCION-1": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-4": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-5": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-6": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "Periodo Especial-1": "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
-    "Periodo Especial-2": "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
-    "Periodo Especial-3": "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "1071329245",
-    "OPCION-1": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-4": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-5": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-6": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "Periodo Especial-1": "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1075870372",
-    "OPCION-1": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-4": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-5": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-6": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "Periodo Especial-1": "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
-    "Periodo Especial-2": "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
-    "Periodo Especial-3": "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "1075658685",
-    "OPCION-1": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-4": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-5": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-6": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "Periodo Especial-1": "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
-    "Periodo Especial-2": "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
-    "Periodo Especial-3": "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "1075652504",
-    "OPCION-1": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-4": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-5": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-6": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "78760585",
-    "OPCION-1": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-4": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-5": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-6": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1075676292",
-    "OPCION-1": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-4": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-5": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-6": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "74364500",
-    "OPCION-1": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-4": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-5": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-6": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "11210802",
-    "OPCION-1": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-4": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-5": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-6": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "Periodo Especial-1": "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
-    "Periodo Especial-2": "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
-    "Periodo Especial-3": "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "80432984",
-    "OPCION-1": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-4": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-5": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-6": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "80541724",
-    "OPCION-1": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-4": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-5": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-6": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1074187070",
-    "OPCION-1": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-4": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-5": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-6": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "80545094",
-    "OPCION-1": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-4": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-5": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-6": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "Periodo Especial-1": "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
-    "Periodo Especial-2": "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
-    "Periodo Especial-3": "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "79566161",
-    "OPCION-1": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-4": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-5": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-6": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1077086047",
-    "OPCION-1": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-4": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-5": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-6": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "Periodo Especial-1": "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "79718127",
-    "OPCION-1": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-4": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-5": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-6": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1077089407",
-    "OPCION-1": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-4": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-5": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-6": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "80547703",
-    "OPCION-1": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-4": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-5": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-6": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1090518648",
-    "OPCION-1": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-2": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-3": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-4": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-5": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-6": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "Periodo Especial-1": "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026",
-    "Periodo Especial-2": "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
-    "Periodo Especial-3": "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "80542668",
-    "OPCION-1": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-4": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-5": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-6": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "Periodo Especial-1": "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "11210842",
-    "OPCION-1": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-4": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-5": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-6": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "11276443",
-    "OPCION-1": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-4": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-5": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-6": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "80039260",
-    "OPCION-1": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-4": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-5": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-6": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "79240325",
-    "OPCION-1": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-4": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-5": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-6": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "Periodo Especial-1": "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
-    "Periodo Especial-2": "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
-    "Periodo Especial-3": "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "80542428",
-    "OPCION-1": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-4": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-5": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-6": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "Periodo Especial-1": "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
-    "Periodo Especial-2": "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
-    "Periodo Especial-3": "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "80854418",
-    "OPCION-1": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-4": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-5": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-6": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "80542404",
-    "OPCION-1": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-4": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-5": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-6": "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
-    "Periodo Especial-1": "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
-    "Periodo Especial-2": "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
-    "Periodo Especial-3": "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "11346779",
-    "OPCION-1": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-2": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-3": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-4": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-5": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-6": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "3210396",
-    "OPCION-1": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-2": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-3": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-4": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-5": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-6": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "3059092",
-    "OPCION-1": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-2": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-3": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-4": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-5": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-6": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "Periodo Especial-1": "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026",
-    "Periodo Especial-2": "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
-    "Periodo Especial-3": "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "80368573",
-    "OPCION-1": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-2": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-3": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-4": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-5": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-6": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "Periodo Especial-1": "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026",
-    "Periodo Especial-2": "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
-    "Periodo Especial-3": "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "64479806",
-    "OPCION-1": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-2": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-3": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-4": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-5": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-6": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "74371737",
-    "OPCION-1": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-2": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-3": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-4": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-5": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-6": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "Periodo Especial-1": "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026",
-    "Periodo Especial-2": "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
-    "Periodo Especial-3": "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "79581512",
-    "OPCION-1": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-2": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-3": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-4": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-5": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-6": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "3212455",
-    "OPCION-1": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-2": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-3": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-4": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-5": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-6": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1075284064",
-    "OPCION-1": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-2": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-3": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-4": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-5": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-6": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1077087088",
-    "OPCION-1": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-2": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-3": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-4": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-5": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-6": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "Periodo Especial-1": "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026",
-    "Periodo Especial-2": "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
-    "Periodo Especial-3": "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "1075674814",
-    "OPCION-1": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-2": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-3": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "OPCION-4": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-5": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-6": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "80549022",
-    "OPCION-1": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-2": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-3": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-4": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-5": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-6": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "Periodo Especial-1": "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1052408544",
-    "OPCION-1": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-2": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-3": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-4": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-5": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-6": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "Periodo Especial-1": "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026",
-    "Periodo Especial-2": "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
-    "Periodo Especial-3": "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "11344904",
-    "OPCION-1": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-4": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-5": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-6": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "Periodo Especial-1": "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026",
-    "Periodo Especial-2": "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
-    "Periodo Especial-3": "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "1075876329",
-    "OPCION-1": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-4": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-5": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-6": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "80540198",
-    "OPCION-1": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-4": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-5": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-6": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1071328251",
-    "OPCION-1": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-4": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-5": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-6": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1077084969",
-    "OPCION-1": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-4": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-5": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-6": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "Periodo Especial-1": "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
-    "Periodo Especial-2": "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
-    "Periodo Especial-3": "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "11347510",
-    "OPCION-1": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-4": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-5": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-6": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "24198086",
-    "OPCION-1": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-4": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-5": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-6": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "79875611",
-    "OPCION-1": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-4": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-5": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-6": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "Periodo Especial-1": "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
-    "Periodo Especial-2": "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
-    "Periodo Especial-3": "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "1075669752",
-    "OPCION-1": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-4": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-5": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-6": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "Periodo Especial-1": "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
-    "Periodo Especial-2": "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
-    "Periodo Especial-3": "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "80547938",
-    "OPCION-1": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-4": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-5": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-6": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "80550390",
-    "OPCION-1": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-2": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-3": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-4": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-5": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-6": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "Periodo Especial-1": "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
-    "Periodo Especial-2": "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
-    "Periodo Especial-3": "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "80231640",
-    "OPCION-1": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-2": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-3": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-4": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-5": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-6": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "Periodo Especial-1": "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
-    "Periodo Especial-2": "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
-    "Periodo Especial-3": "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "80546944",
-    "OPCION-1": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-2": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-3": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-4": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-5": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-6": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1075678337",
-    "OPCION-1": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-2": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-3": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-4": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-5": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-6": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "79833607",
-    "OPCION-1": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-2": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-3": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-4": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-5": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-6": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "Periodo Especial-1": "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
-    "Periodo Especial-2": "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
-    "Periodo Especial-3": "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "11390255",
-    "OPCION-1": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-2": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-3": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-4": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-5": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-6": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "Periodo Especial-1": "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
-    "Periodo Especial-2": "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
-    "Periodo Especial-3": "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "80546709",
-    "OPCION-1": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-2": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-3": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-4": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-5": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-6": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1003907856",
-    "OPCION-1": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-2": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-3": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-4": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-5": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-6": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "3212880",
-    "OPCION-1": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-2": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-3": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-4": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-5": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-6": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "20911263",
-    "OPCION-1": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-2": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-3": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-4": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-5": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-6": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "80528211",
-    "OPCION-1": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-4": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-5": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-6": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1075655400",
-    "OPCION-1": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-4": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-5": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-6": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1075680616",
-    "OPCION-1": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-4": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-5": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-6": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "80547692",
-    "OPCION-1": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-4": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-5": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-6": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "Periodo Especial-1": "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
-    "Periodo Especial-2": "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
-    "Periodo Especial-3": "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "35418186",
-    "OPCION-1": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-4": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-5": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-6": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1075653219",
-    "OPCION-1": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-4": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-5": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-6": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "Periodo Especial-1": "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
-    "Periodo Especial-2": "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
-    "Periodo Especial-3": "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "1077148052",
-    "OPCION-1": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-4": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-5": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-6": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "Periodo Especial-1": "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
-    "Periodo Especial-2": "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
-    "Periodo Especial-3": "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "3029301",
-    "OPCION-1": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-4": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-5": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-6": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "Periodo Especial-1": "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
-    "Periodo Especial-2": "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
-    "Periodo Especial-3": "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "1077084493",
-    "OPCION-1": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-4": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-5": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-6": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1073534982",
-    "OPCION-1": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-4": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-5": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-6": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "Periodo Especial-1": "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
-    "Periodo Especial-2": "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
-    "Periodo Especial-3": "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "1077088063",
-    "OPCION-1": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-4": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-5": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-6": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "Periodo Especial-1": "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
-    "Periodo Especial-2": "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
-    "Periodo Especial-3": "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "80086256",
-    "OPCION-1": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-4": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-5": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-6": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "Periodo Especial-1": "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
-    "Periodo Especial-2": "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
-    "Periodo Especial-3": "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "79758503",
-    "OPCION-1": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-4": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-5": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-6": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1075663064",
-    "OPCION-1": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-4": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-5": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-6": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1075672094",
-    "OPCION-1": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-4": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-5": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-6": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1077082228",
-    "OPCION-1": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-4": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-5": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-6": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "80546481",
-    "OPCION-1": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-4": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-5": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-6": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1069099282",
-    "OPCION-1": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-4": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-5": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-6": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "Periodo Especial-1": "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
-    "Periodo Especial-2": "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
-    "Periodo Especial-3": "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "1075682308",
-    "OPCION-1": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-4": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-5": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-6": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1075669410",
-    "OPCION-1": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-4": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-5": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-6": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "74085503",
-    "OPCION-1": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-4": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-5": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-6": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "Periodo Especial-1": "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
-    "Periodo Especial-2": "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
-    "Periodo Especial-3": "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
-    "": "."
-  },
-  {
-    "CEDULA": "78761465",
-    "OPCION-1": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-4": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-5": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-6": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1075872496",
-    "OPCION-1": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-4": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-5": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-6": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "80792237",
-    "OPCION-1": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-2": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-3": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-4": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-5": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-6": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1075668925",
-    "OPCION-1": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-2": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-3": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-4": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-5": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-6": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "Periodo Especial-1": "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
-    "Periodo Especial-2": "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026",
-    "Periodo Especial-3": "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "1019016707",
-    "OPCION-1": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-2": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-3": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-4": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-5": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-6": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1070304135",
-    "OPCION-1": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-2": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-3": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-4": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-5": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-6": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "79843007",
-    "OPCION-1": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-2": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-3": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-4": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-5": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-6": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "Periodo Especial-1": "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
-    "Periodo Especial-2": "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026",
-    "Periodo Especial-3": "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "1075670761",
-    "OPCION-1": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-2": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-3": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-4": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-5": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-6": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1069756490",
-    "OPCION-1": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-2": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-3": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-4": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-5": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-6": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "Periodo Especial-1": "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "80397368",
-    "OPCION-1": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-2": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-3": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-4": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-5": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-6": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1034307299",
-    "OPCION-1": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-2": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-3": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-4": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-5": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-6": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "11325048",
-    "OPCION-1": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-2": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-3": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-4": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-5": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-6": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "21022936",
-    "OPCION-1": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-2": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-3": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-4": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-5": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-6": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1122649173",
-    "OPCION-1": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-2": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-3": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-4": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-5": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-6": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "Periodo Especial-1": "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026",
-    "Periodo Especial-2": "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
-    "Periodo Especial-3": "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
-    "": "."
-  },
-  {
-    "CEDULA": "18882279",
-    "OPCION-1": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-2": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-3": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-4": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-5": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-6": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "80550520",
-    "OPCION-1": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-2": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-3": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-4": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-5": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-6": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1075669535",
-    "OPCION-1": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-2": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-3": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-4": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-5": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-6": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "3188439",
-    "OPCION-1": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-2": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-3": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-4": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-5": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-6": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "39818651",
-    "OPCION-1": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-2": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-3": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-4": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-5": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-6": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "12747490",
-    "OPCION-1": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-2": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-3": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-4": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-5": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-6": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1062911587",
-    "OPCION-1": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-2": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-3": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-4": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-5": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-6": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "11276282",
-    "OPCION-1": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-2": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-3": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-4": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-5": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-6": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1071328741",
-    "OPCION-1": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-2": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-3": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-4": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-5": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-6": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "9728714",
-    "OPCION-1": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-2": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-3": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-4": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-5": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-6": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1077083642",
-    "OPCION-1": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-2": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-3": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-4": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-5": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-6": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "80377438",
-    "OPCION-1": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-2": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-3": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-4": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-5": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-6": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1096226533",
-    "OPCION-1": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-2": "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
-    "OPCION-3": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-4": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-5": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-6": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "Periodo Especial-1": "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
-    "Periodo Especial-2": "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
-    "Periodo Especial-3": "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "1049394444",
-    "OPCION-1": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-2": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-3": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-4": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-5": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-6": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "Periodo Especial-1": "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
-    "Periodo Especial-2": "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
-    "Periodo Especial-3": "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "1072650599",
-    "OPCION-1": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-2": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-3": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-4": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-5": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-6": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "Periodo Especial-1": "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
-    "Periodo Especial-2": "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
-    "Periodo Especial-3": "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "1070021214",
-    "OPCION-1": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-2": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-3": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-4": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-5": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-6": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "Periodo Especial-1": "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
-    "Periodo Especial-2": "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
-    "Periodo Especial-3": "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "80541673",
-    "OPCION-1": "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
-    "OPCION-2": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "OPCION-3": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-4": "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
-    "OPCION-5": "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
-    "OPCION-6": "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1070012108",
-    "OPCION-1": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-2": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-3": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-4": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-5": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-6": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "Periodo Especial-1": "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026",
-    "Periodo Especial-2": "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
-    "Periodo Especial-3": "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
-    "": "."
-  },
-  {
-    "CEDULA": "1077082178",
-    "OPCION-1": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-2": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-3": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-4": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-5": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-6": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "Periodo Especial-1": "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "80542875",
-    "OPCION-1": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-2": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-3": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-4": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-5": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-6": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "1071144323",
-    "OPCION-1": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-2": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-3": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-4": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-5": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-6": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "Periodo Especial-1": "N/A",
-    "Periodo Especial-2": "N/A",
-    "Periodo Especial-3": "N/A",
-    "": "."
-  },
-  {
-    "CEDULA": "11111",
-    "OPCION-1": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
-    "OPCION-2": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
-    "OPCION-3": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "OPCION-4": "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
-    "OPCION-5": "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
-    "OPCION-6": "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
-    "Periodo Especial-1": "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026",
-    "Periodo Especial-2": "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
-    "Periodo Especial-3": "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
-    "": "."
-  }
-]
+const DATOS_COLABORADORES = [
+    {
+        "cedula":  "80202128",
+        "opciones":  [
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "3070584",
+        "opciones":  [
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1012325826",
+        "opciones":  [
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
+                                   "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
+                                   "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026"
+                               ]
+    },
+    {
+        "cedula":  "1073610254",
+        "opciones":  [
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "80541737",
+        "opciones":  [
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "9691347",
+        "opciones":  [
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
+                                   "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
+                                   "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026"
+                               ]
+    },
+    {
+        "cedula":  "1075651002",
+        "opciones":  [
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "80396331",
+        "opciones":  [
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
+                                   "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
+                                   "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026"
+                               ]
+    },
+    {
+        "cedula":  "1012334863",
+        "opciones":  [
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "80543645",
+        "opciones":  [
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
+                                   "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
+                                   "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026"
+                               ]
+    },
+    {
+        "cedula":  "1071329245",
+        "opciones":  [
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1075870372",
+        "opciones":  [
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
+                                   "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
+                                   "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026"
+                               ]
+    },
+    {
+        "cedula":  "1075658685",
+        "opciones":  [
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
+                                   "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
+                                   "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026"
+                               ]
+    },
+    {
+        "cedula":  "1075652504",
+        "opciones":  [
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "78760585",
+        "opciones":  [
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1075676292",
+        "opciones":  [
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "74364500",
+        "opciones":  [
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "11210802",
+        "opciones":  [
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
+                                   "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
+                                   "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026"
+                               ]
+    },
+    {
+        "cedula":  "80432984",
+        "opciones":  [
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "80541724",
+        "opciones":  [
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1074187070",
+        "opciones":  [
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "80545094",
+        "opciones":  [
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
+                                   "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
+                                   "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026"
+                               ]
+    },
+    {
+        "cedula":  "79566161",
+        "opciones":  [
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1077086047",
+        "opciones":  [
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "79718127",
+        "opciones":  [
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1077089407",
+        "opciones":  [
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "80547703",
+        "opciones":  [
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1090518648",
+        "opciones":  [
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
+                                   "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
+                                   "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026"
+                               ]
+    },
+    {
+        "cedula":  "80542668",
+        "opciones":  [
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "11210842",
+        "opciones":  [
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "11276443",
+        "opciones":  [
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "80039260",
+        "opciones":  [
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "79240325",
+        "opciones":  [
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
+                                   "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
+                                   "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026"
+                               ]
+    },
+    {
+        "cedula":  "80542428",
+        "opciones":  [
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
+                                   "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
+                                   "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026"
+                               ]
+    },
+    {
+        "cedula":  "80854418",
+        "opciones":  [
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "80542404",
+        "opciones":  [
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
+                                   "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
+                                   "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026"
+                               ]
+    },
+    {
+        "cedula":  "11346779",
+        "opciones":  [
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "3210396",
+        "opciones":  [
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "3059092",
+        "opciones":  [
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026",
+                                   "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
+                                   "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026"
+                               ]
+    },
+    {
+        "cedula":  "80368573",
+        "opciones":  [
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026",
+                                   "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
+                                   "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026"
+                               ]
+    },
+    {
+        "cedula":  "64479806",
+        "opciones":  [
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "74371737",
+        "opciones":  [
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026",
+                                   "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
+                                   "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026"
+                               ]
+    },
+    {
+        "cedula":  "79581512",
+        "opciones":  [
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "3212455",
+        "opciones":  [
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1075284064",
+        "opciones":  [
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1077087088",
+        "opciones":  [
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026",
+                                   "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
+                                   "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026"
+                               ]
+    },
+    {
+        "cedula":  "1075674814",
+        "opciones":  [
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "80549022",
+        "opciones":  [
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1052408544",
+        "opciones":  [
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026",
+                                   "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
+                                   "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026"
+                               ]
+    },
+    {
+        "cedula":  "11344904",
+        "opciones":  [
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026",
+                                   "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
+                                   "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026"
+                               ]
+    },
+    {
+        "cedula":  "1075876329",
+        "opciones":  [
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "80540198",
+        "opciones":  [
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1071328251",
+        "opciones":  [
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1077084969",
+        "opciones":  [
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
+                                   "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
+                                   "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026"
+                               ]
+    },
+    {
+        "cedula":  "11347510",
+        "opciones":  [
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "24198086",
+        "opciones":  [
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "79875611",
+        "opciones":  [
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
+                                   "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
+                                   "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026"
+                               ]
+    },
+    {
+        "cedula":  "1075669752",
+        "opciones":  [
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
+                                   "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
+                                   "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026"
+                               ]
+    },
+    {
+        "cedula":  "80547938",
+        "opciones":  [
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "80550390",
+        "opciones":  [
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
+                                   "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
+                                   "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026"
+                               ]
+    },
+    {
+        "cedula":  "80231640",
+        "opciones":  [
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
+                                   "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
+                                   "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026"
+                               ]
+    },
+    {
+        "cedula":  "80546944",
+        "opciones":  [
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1075678337",
+        "opciones":  [
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "79833607",
+        "opciones":  [
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "11390255",
+        "opciones":  [
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
+                                   "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
+                                   "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026"
+                               ]
+    },
+    {
+        "cedula":  "80546709",
+        "opciones":  [
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1003907856",
+        "opciones":  [
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "3212880",
+        "opciones":  [
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "20911263",
+        "opciones":  [
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026  ---  Fecha Regreso = martes, 10 de noviembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "80528211",
+        "opciones":  [
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1075655400",
+        "opciones":  [
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1075680616",
+        "opciones":  [
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "80547692",
+        "opciones":  [
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
+                                   "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
+                                   "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026"
+                               ]
+    },
+    {
+        "cedula":  "35418186",
+        "opciones":  [
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1075653219",
+        "opciones":  [
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
+                                   "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
+                                   "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026"
+                               ]
+    },
+    {
+        "cedula":  "1077148052",
+        "opciones":  [
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
+                                   "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
+                                   "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026"
+                               ]
+    },
+    {
+        "cedula":  "3029301",
+        "opciones":  [
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
+                                   "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
+                                   "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026"
+                               ]
+    },
+    {
+        "cedula":  "1077084493",
+        "opciones":  [
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1073534982",
+        "opciones":  [
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
+                                   "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
+                                   "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026"
+                               ]
+    },
+    {
+        "cedula":  "1077088063",
+        "opciones":  [
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
+                                   "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
+                                   "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026"
+                               ]
+    },
+    {
+        "cedula":  "80086256",
+        "opciones":  [
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
+                                   "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
+                                   "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026"
+                               ]
+    },
+    {
+        "cedula":  "79758503",
+        "opciones":  [
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1075663064",
+        "opciones":  [
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1075672094",
+        "opciones":  [
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1077082228",
+        "opciones":  [
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "80546481",
+        "opciones":  [
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1069099282",
+        "opciones":  [
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
+                                   "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
+                                   "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026"
+                               ]
+    },
+    {
+        "cedula":  "1075682308",
+        "opciones":  [
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1075669410",
+        "opciones":  [
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "74085503",
+        "opciones":  [
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
+                                   "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
+                                   "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026"
+                               ]
+    },
+    {
+        "cedula":  "78761465",
+        "opciones":  [
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1075872496",
+        "opciones":  [
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "80792237",
+        "opciones":  [
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1075668925",
+        "opciones":  [
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
+                                   "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026",
+                                   "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026"
+                               ]
+    },
+    {
+        "cedula":  "1019016707",
+        "opciones":  [
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1070304135",
+        "opciones":  [
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "79843007",
+        "opciones":  [
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026",
+                                   "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026",
+                                   "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026"
+                               ]
+    },
+    {
+        "cedula":  "1075670761",
+        "opciones":  [
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1069756490",
+        "opciones":  [
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "80397368",
+        "opciones":  [
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1034307299",
+        "opciones":  [
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "11325048",
+        "opciones":  [
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "21022936",
+        "opciones":  [
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1122649173",
+        "opciones":  [
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026",
+                                   "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
+                                   "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027"
+                               ]
+    },
+    {
+        "cedula":  "18882279",
+        "opciones":  [
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "80550520",
+        "opciones":  [
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1075669535",
+        "opciones":  [
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "3188439",
+        "opciones":  [
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "39818651",
+        "opciones":  [
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "12747490",
+        "opciones":  [
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1062911587",
+        "opciones":  [
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "11276282",
+        "opciones":  [
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1071328741",
+        "opciones":  [
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "9728714",
+        "opciones":  [
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1077083642",
+        "opciones":  [
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "80377438",
+        "opciones":  [
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1096226533",
+        "opciones":  [
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
+                                   "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
+                                   "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026"
+                               ]
+    },
+    {
+        "cedula":  "1049394444",
+        "opciones":  [
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
+                                   "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
+                                   "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026"
+                               ]
+    },
+    {
+        "cedula":  "1072650599",
+        "opciones":  [
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
+                                   "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
+                                   "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026"
+                               ]
+    },
+    {
+        "cedula":  "1070021214",
+        "opciones":  [
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
+                                   "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
+                                   "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026"
+                               ]
+    },
+    {
+        "cedula":  "80541673",
+        "opciones":  [
+                         "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1070012108",
+        "opciones":  [
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026",
+                                   "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
+                                   "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026"
+                               ]
+    },
+    {
+        "cedula":  "1077082178",
+        "opciones":  [
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "80542875",
+        "opciones":  [
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    },
+    {
+        "cedula":  "1071144323",
+        "opciones":  [
+                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "N/A",
+                                   "N/A",
+                                   "N/A"
+                               ]
+    }
+];
