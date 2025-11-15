@@ -7,10 +7,9 @@
   <meta description="Portal para que los colaboradores reserven su periodo de vacaciones." />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <script src="datos.js"></script>
-  <script src="datos_periodos_especiales.js"></script>
-  <!-- Firebase SDK (v8 namespaced, compatible con firebase.initializeApp) -->
-  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+  <!-- Nota: se eliminó referencia a datos_periodos_especiales.js (no existe en el repo) -->
+  <!-- Firebase SDK (v8 UMD bundle) -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase.js"></script>
 
   <style>
     :root{
@@ -513,8 +512,9 @@
     }
 
     function guardarReservas(data){
-      reservasRef.set(data).catch(err => console.error('Error guardando reservas:', err));
-      actualizarKpis();
+      return reservasRef.set(data)
+        .then(()=> { actualizarKpis(); })
+        .catch(err => { console.error('Error guardando reservas:', err); throw err; });
     }
 
     // --- Gestión de bloqueos (cedulas que no pueden modificar su reserva)
@@ -529,7 +529,8 @@
     }
 
     function guardarBloqueados(obj){
-      bloqueadosRef.set(obj).catch(err => console.error('Error guardando bloqueados:', err));
+      return bloqueadosRef.set(obj)
+        .catch(err => { console.error('Error guardando bloqueados:', err); throw err; });
     }
 
     async function estaBloqueado(ced){
@@ -563,10 +564,18 @@
     const year = $('#year');
 
     let cedulaActual = '';
-    let reservas = leerReservas();
+    let reservas = {};
+
+    // Cargar reservas iniciales desde Firebase y escuchar cambios en tiempo real
+    leerReservas().then(r => { reservas = r || {}; actualizarKpis(); renderTabla(); actualizarDisponibilidad(); });
+    reservasRef.on('value', (snapshot) => {
+      reservas = snapshot.val() || {};
+      actualizarKpis();
+      renderTabla();
+      actualizarDisponibilidad();
+    });
 
     function actualizarKpis(){
-      reservas = leerReservas();
       const total = Object.keys(reservas).length;
       kpiTotal.textContent = total;
       kpiFecha.textContent = hoyStr();
@@ -707,7 +716,7 @@
       actualizarDisponibilidad();
     }
 
-    function mostrarPeriodosParaCedula(cedula){
+    async function mostrarPeriodosParaCedula(cedula){
       if(!cedula || cedula.length < 5){
         mostrarToast('Ingresa una cédula válida (mínimo 5 dígitos).','error');
         return;
@@ -738,7 +747,7 @@
       // Periodos especiales serán renderizados junto con las opciones normales (combinados)
 
       // Si la cédula está bloqueada por haber reservado antes, mostrar solo lectura
-      const bloqueadosActuales = leerBloqueados();
+      const bloqueadosActuales = await leerBloqueados();
       if(bloqueadosActuales[cedula]){
         sectionPeriodos.classList.remove('hidden');
         const reservaExistente = reservas[cedula];
@@ -822,12 +831,12 @@
     }
 
     /* ============ Acciones ============ */
-    btnBuscar.addEventListener('click', ()=> mostrarPeriodosParaCedula(inputCedula.value.trim()));
+    btnBuscar.addEventListener('click', async ()=> await mostrarPeriodosParaCedula(inputCedula.value.trim()));
     inputCedula.addEventListener('keypress', (e)=> {
       if(e.key === 'Enter'){ e.preventDefault(); mostrarPeriodosParaCedula(inputCedula.value.trim()); }
     });
 
-    btnReservar.addEventListener('click', ()=>{
+    btnReservar.addEventListener('click', async ()=>{
       if(!cedulaActual){ mostrarToast('Primero ingresa tu cédula.','error'); return; }
       const radio = listaPeriodos.querySelector('input[type="radio"]:checked');
       if(!radio){ mostrarToast('Selecciona un periodo.','error'); return; }
@@ -841,14 +850,16 @@
         periodoEtiqueta: opcionTexto,
         guardadoEn: new Date().toISOString()
       };
-      guardarReservas(reservas);
+      try{
+        await guardarReservas(reservas);
+      }catch(e){ console.error('Error guardando reservas en Firebase:', e); mostrarToast('Error al guardar la reserva','error'); return; }
 
       // Marcar la cédula como bloqueada para impedir volver a acceder a selección
       try{
-        const bloq = leerBloqueados();
+        const bloq = await leerBloqueados();
         bloq[cedulaActual] = true;
-        guardarBloqueados(bloq);
-      }catch(e){ console.warn('No se pudo marcar bloqueo en localStorage', e); }
+        await guardarBloqueados(bloq);
+      }catch(e){ console.warn('No se pudo marcar bloqueo en Firebase', e); }
 
       // Mostrar el periodo guardado en modo solo lectura
       listaPeriodos.innerHTML = `
@@ -912,7 +923,6 @@
 
     // Función para renderizar tabla de reservas
     function renderTabla(){
-      reservas = leerReservas();
       tablaReservas.innerHTML = '';
       const contador = contarPersonasPorPeriodo();
       
