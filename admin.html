@@ -1,0 +1,652 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Panel Administrador — Vacaciones 2026</title>
+  <meta description="Panel de administración para gestionar reservas de vacaciones." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --title-size: clamp(1.8rem, 2.6vw + 1rem, 3rem);
+      --bg:#f5f7fb;
+      --card:#ffffff;
+      --primary:#8b7cf6;
+      --primary-2:#6f5de6;
+      --accent:#2f80ed;
+      --text:#0f1724;
+      --muted:#6b7280;
+      --ok:#16a34a;
+      --warn:#d97706;
+      --danger:#dc2626;
+      --border:rgba(15,23,36,.06);
+      --glass:rgba(15,23,36,.03);
+    }
+    *{ box-sizing:border-box }
+    html,body{ height:100% }
+    body{
+      margin:0; font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      color:var(--text);
+      background:
+        linear-gradient(180deg, rgba(139,124,246,.12), rgba(47,128,237,.12)),
+        radial-gradient(1200px 500px at 80% -10%, rgba(47,128,237,.08), transparent 60%),
+        radial-gradient(900px 600px at -10% 10%, rgba(139,124,246,.06), transparent 60%),
+        linear-gradient(180deg, #f8fbff, var(--bg));
+    }
+    .container{ max-width:1200px; margin:0 auto; padding:0 1rem }
+    header{
+      position:sticky; top:0; z-index:10;
+      backdrop-filter: blur(8px);
+      background:rgba(255,255,255,.85);
+      border-bottom:1px solid var(--border);
+      color:var(--text);
+    }
+    .nav{ display:flex; align-items:center; justify-content:space-between; padding:1rem 0 }
+    .brand{ display:flex; align-items:center; gap:.8rem; font-weight:800; letter-spacing:.3px; font-size: var(--title-size); }
+    .brand img{ height:1.5em; width:auto; }
+    button{ font-family:inherit; font-size:inherit }
+    .primary{ background:linear-gradient(135deg, var(--primary), var(--accent)); color:#fff; border:none; padding:.6rem 1.2rem; border-radius:8px; cursor:pointer; font-weight:600; transition:.2s; min-height:44px; display:inline-flex; align-items:center; justify-content:center }
+    .primary:hover{ transform:translateY(-1px); box-shadow:0 8px 20px rgba(139,124,246,.25) }
+    .ghost{ background:transparent; border:1px solid var(--border); color:var(--text); padding:.6rem 1rem; border-radius:8px; cursor:pointer; font-weight:500; transition:.2s; min-height:44px; display:inline-flex; align-items:center; justify-content:center }
+    .ghost:hover{ background:var(--glass); border-color:var(--primary) }
+    @media (max-width:500px){
+      .primary, .ghost{ width:100%; justify-content:center; padding:0.75rem 1rem }
+    }
+    .card{ background:var(--card); border-radius:12px; border:1px solid var(--border); padding:1.5rem; box-shadow:0 4px 16px rgba(15,23,36,.08) }
+    .input-row{ display:flex; gap:.5rem; flex-wrap:wrap; }
+    input[type="text"], input[type="number"], select{ flex:1; min-width:200px; padding:.6rem .8rem; border:1px solid var(--border); border-radius:8px; font-family:inherit; background:var(--card); color:var(--text); min-height:44px }
+    @media (max-width:768px){
+      input[type="text"], input[type="number"], select{ min-width:150px; font-size:16px }
+      .input-row{ flex-direction:column }
+      .input-row input, .input-row button{ width:100% }
+    }
+    @media (max-width:500px){
+      input[type="text"], input[type="number"], select{ min-width:100%; padding:0.75rem 0.9rem }
+    }
+    input:focus, select:focus{ outline:none; border-color:var(--primary); box-shadow:0 0 0 3px rgba(139,124,246,.1) }
+    .muted{ color:var(--muted) }
+    .success{ color:var(--ok) }
+    .danger{ color:var(--danger) }
+    .table-wrap{ overflow:auto; border-radius:12px; border:1px solid var(--border); -webkit-overflow-scrolling: touch }
+    table{ width:100%; border-collapse: collapse; min-width:500px }
+    th, td{ padding:.75rem; border-bottom:1px solid var(--border); text-align:left; white-space:nowrap; overflow:hidden; text-overflow:ellipsis }
+    @media (max-width:768px){ th, td{ padding:0.6rem; font-size:0.9rem } }
+    @media (max-width:500px){ th, td{ padding:0.5rem; font-size:0.8rem } }
+    th{ color:#cfd6e6; font-weight:700; background:rgba(139,124,246,.05) }
+    tr:hover{ background:rgba(139,124,246,.03) }
+    .toast{
+      position: fixed; right:16px; bottom:16px; padding:1rem 1.5rem; border-radius:12px;
+      background: #16a34a; border:2px solid #15803d; color:#ffffff;
+      box-shadow:0 10px 30px rgba(0,0,0,.4); display:none; z-index:50;
+      font-weight:700; font-size:1rem; max-width:400px;
+    }
+    .toast.error{ background: #dc2626; border-color: #991b1b; color:#ffffff; }
+    @media (max-width:500px){ .toast{ left:16px; right:16px; max-width:none; padding:0.9rem 1.2rem; font-size:0.9rem; bottom:20px } }
+    .hidden{ display:none !important }
+    .grid{ display:grid; gap:1rem; margin-top:1rem }
+    .grid-2{ grid-template-columns: repeat(2, 1fr) }
+    @media (max-width:768px){ .grid-2{ grid-template-columns: 1fr } }
+    @media (max-width:500px){ .grid{ gap:0.8rem; margin-top:0.8rem } }
+    .stat{ background:linear-gradient(135deg, rgba(139,124,246,.1), rgba(47,128,237,.1)); padding:1rem; border-radius:12px; border:1px solid rgba(139,124,246,.2) }
+    .stat-value{ font-size:1.8rem; font-weight:800; color:var(--primary); margin-bottom:.2rem }
+    .stat-label{ color:var(--muted); font-size:.9rem }
+    @media (max-width:600px){ .stat{ padding:0.8rem } .stat-value{ font-size:1.4rem } .stat-label{ font-size:0.8rem } }
+    @media (max-width:500px){ .stat{ padding:0.6rem } .stat-value{ font-size:1.1rem } .stat-label{ font-size:0.75rem } }
+    footer{ color:var(--muted); padding:2rem 0; font-size:.92rem; text-align:center }
+    @media (max-width:500px){ footer{ padding:1.5rem 0; font-size:0.85rem } }
+
+    /* ----- Estilos para opciones (mejora estética) ----- */
+    /* Títulos de opción más visibles/vivos */
+    .opcion-titulo, .option-title, .period-label {
+      color: #7c3aed; /* color más vivo y contrastado (morado vibrante) */
+      font-weight: 800;
+      font-size: 1.03rem;
+      letter-spacing: .2px;
+    }
+
+    /* Contenedor de cada opción/periodo (soporta radio/checkbox dentro) */
+    .period-option{
+      display:flex; align-items:center; gap:.6rem; padding:.6rem; border:1px solid var(--border);
+      border-radius:10px; background:var(--card); transition: border-color .18s, box-shadow .18s, transform .12s;
+    }
+
+    /* Uso del color de aceptación nativo en navegadores modernos */
+    .period-option input[type="radio"], .period-option input[type="checkbox"]{
+      width:1.05rem; height:1.05rem; accent-color: var(--ok);
+    }
+
+    /* Estado visual cuando está seleccionada la opción */
+    .period-option.selected{
+      border-color: rgba(22,163,74,0.95); /* verde vivo */
+      box-shadow: 0 10px 30px rgba(16,185,129,.10);
+      transform: translateY(-3px);
+    }
+
+    /* Si el HTML usa un label inmediatamente después del input, permitir resaltado con CSS */
+    .period-option input:checked + label{
+      border-color: rgba(22,163,74,0.95);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <img src="images/Logo.jpg" alt="Logo" style="height:36px;width:auto;">
+        <span>Admin</span>
+      </div>
+      <button id="btnVolver" class="ghost">⬅️ Volver</button>
+    </div>
+  </header>
+
+  <main class="container" style="padding:2rem 0;">
+    <section class="card">
+      <h1>🔐 Panel de Administrador</h1>
+      <p class="muted">Gestión completa de reservas de vacaciones para el año 2026</p>
+    </section>
+
+    <!-- Estadísticas -->
+    <div class="grid grid-2" style="margin-top:1.5rem;">
+      <div class="stat">
+        <div class="stat-value" id="statTotal">0</div>
+        <div class="stat-label">Reservas totales</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value" id="statColaboradores">0</div>
+        <div class="stat-label">Colaboradores únicos</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value" id="statPeriodosLlenos">0</div>
+        <div class="stat-label">Periodos llenos (8 personas)</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value" id="statOcupacion">0%</div>
+        <div class="stat-label">Ocupación promedio</div>
+      </div>
+    </div>
+
+    <!-- Tabla de reservas -->
+    <section class="card" style="margin-top:2rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
+        <h2 style="margin:0;">Todas las reservas</h2>
+        <button id="btnExportar" class="primary" style="font-size:0.9rem;">📥 Exportar a Excel</button>
+      </div>
+      <div class="input-row" style="margin-bottom:1rem;">
+        <input type="text" id="filtro" placeholder="Buscar por cédula o periodo...">
+        <button id="btnFiltrar" class="primary">Filtrar</button>
+        <button id="btnLimpiarFiltro" class="ghost">Limpiar</button>
+      </div>
+      <div class="table-wrap">
+        <table id="tablaAdmin">
+          <thead>
+            <tr>
+              <th>Cédula</th>
+              <th>Bloqueado</th>
+              <th>Periodo</th>
+              <th>Personas / Cupos</th>
+              <th>Fecha reserva</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody id="bodyTablaAdmin"><!-- filas dinámicas --></tbody>
+        </table>
+      </div>
+      <!-- Controles de paginación -->
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-top:1rem; gap:1rem; flex-wrap:wrap;">
+        <button id="btnPaginaAnterior" class="ghost" style="display:none;">⬅️ Anterior</button>
+        <span id="indicadorPagina" style="font-weight:600; color:var(--text); display:none;"></span>
+        <button id="btnPaginaSiguiente" class="ghost" style="display:none;">Siguiente ➡️</button>
+      </div>
+    </section>
+
+    <!-- Resumen de periodos -->
+    <section class="card" style="margin-top:2rem;">
+      <h2>Resumen por periodo</h2>
+      <div id="resumenPeriodos" class="grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); margin-top:1rem;">
+        <!-- Se llena dinámicamente -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> — Portal de Vacaciones. Administración.
+  </footer>
+
+  <!-- Toast -->
+  <div id="toast" class="toast" role="status"></div>
+
+  <script>
+    // Utilidades
+    const $ = (sel) => document.querySelector(sel);
+    const $$ = (sel) => document.querySelectorAll(sel);
+    
+    function mostrarToast(msg, tipo = 'success'){
+      const toast = $('#toast');
+      toast.textContent = msg;
+      toast.classList.remove('error');
+      if(tipo === 'error') toast.classList.add('error');
+      toast.style.display = 'block';
+      setTimeout(() => { toast.style.display = 'none' }, 3000);
+    }
+
+    // Estado
+    let reservas = {};
+    let bloqueadosCache = {};
+    let paginaActual = 1;
+    const itemsPorPagina = 10;
+    let filtroActual = '';
+
+    // Elementos del DOM
+    const btnVolver = $('#btnVolver');
+    const tablaAdmin = $('#tablaAdmin');
+    const bodyTablaAdmin = $('#bodyTablaAdmin');
+    const btnExportar = $('#btnExportar');
+    const filtroInput = $('#filtro');
+    const btnFiltrar = $('#btnFiltrar');
+    const btnLimpiarFiltro = $('#btnLimpiarFiltro');
+    const resumenPeriodos = $('#resumenPeriodos');
+
+    // Leer reservas del localStorage con validación
+    function leerReservas(){
+      const stored = localStorage.getItem('vacaciones_reservas_v1');
+      if(!stored) return {};
+      try {
+        const data = JSON.parse(stored);
+        return typeof data === 'object' && data !== null ? data : {};
+      } catch(e) {
+        console.error('Error al parsear reservas:', e);
+        mostrarToast('Error al cargar datos', 'error');
+        return {};
+      }
+    }
+
+    // Bloqueos: mapa de cédulas que no pueden volver a entrar/modificar
+    function leerBloqueados(){
+      const stored = localStorage.getItem('vacaciones_bloqueadas_v1');
+      if(!stored) return {};
+      try {
+        const data = JSON.parse(stored);
+        return typeof data === 'object' && data !== null ? data : {};
+      } catch(e) {
+        console.error('Error al parsear bloqueados:', e);
+        return {};
+      }
+    }
+
+    function guardarBloqueados(obj){
+      localStorage.setItem('vacaciones_bloqueadas_v1', JSON.stringify(obj));
+      bloqueadosCache = obj;
+    }
+
+    // Contar personas por periodo
+    function contarPersonasPorPeriodo(){
+      const contador = {};
+      Object.values(reservas).forEach(r => {
+        if(r && r.periodoEtiqueta){
+          contador[r.periodoEtiqueta] = (contador[r.periodoEtiqueta] || 0) + 1;
+        }
+      });
+      return contador;
+    }
+    // Obtener registros filtrados
+    function obtenerRegistrosFiltrados(filtroTexto = ''){
+      const registros = [];
+      Object.values(reservas).forEach((r) => {
+        if(!r || !r.cedula) return;
+        const cedula = String(r.cedula);
+        const periodo = String(r.periodoEtiqueta || '');
+        
+        if(filtroTexto && !cedula.includes(filtroTexto) && !periodo.toLowerCase().includes(filtroTexto.toLowerCase())){
+          return;
+        }
+        registros.push(r);
+      });
+      return registros;
+    }
+
+    // Renderizar tabla con paginación
+    function renderTablaAdmin(filtroTexto = ''){
+      filtroActual = filtroTexto;
+      paginaActual = 1;
+      const registrosFiltrados = obtenerRegistrosFiltrados(filtroTexto);
+      const totalRegistros = registrosFiltrados.length;
+      
+      if(totalRegistros === 0){
+        bodyTablaAdmin.innerHTML = '<tr><td colspan="6" style="text-align:center; padding:2rem;">Sin registros encontrados</td></tr>';
+        mostrarToast(`0 registros encontrados`);
+        actualizarControlesPaginacion(totalRegistros);
+        return;
+      }
+
+      mostrarToast(`${totalRegistros} registros encontrados`);
+      renderPagina(filtroTexto);
+      actualizarControlesPaginacion(totalRegistros);
+    }
+
+    // Renderizar página actual
+    function renderPagina(filtroTexto = ''){
+      bodyTablaAdmin.innerHTML = '';
+      const contador = contarPersonasPorPeriodo();
+      const bloqueados = bloqueadosCache;
+      const registrosFiltrados = obtenerRegistrosFiltrados(filtroTexto);
+      
+      const inicio = (paginaActual - 1) * itemsPorPagina;
+      const fin = inicio + itemsPorPagina;
+      const registrosPagina = registrosFiltrados.slice(inicio, fin);
+      
+      registrosPagina.forEach((r) => {
+        const cedula = String(r.cedula);
+        const periodo = String(r.periodoEtiqueta || '');
+        const isBloqueado = !!bloqueados[cedula];
+        const cantidadEnPeriodo = contador[periodo] || 0;
+        const fechaGuardado = new Date(r.guardadoEn || Date.now()).toLocaleString('es-CO');
+        
+        const tr = document.createElement('tr');
+        
+        const tdCedula = document.createElement('td');
+        tdCedula.innerHTML = `<b>${cedula}</b>`;
+        
+        const tdBloqueado = document.createElement('td');
+        tdBloqueado.style.fontWeight = '700';
+        tdBloqueado.style.color = isBloqueado ? '#dc2626' : '#16a34a';
+        tdBloqueado.textContent = isBloqueado ? 'Sí' : 'No';
+        
+        const tdPeriodo = document.createElement('td');
+        tdPeriodo.textContent = periodo;
+        
+        const tdCantidad = document.createElement('td');
+        tdCantidad.innerHTML = `<span style="color:${cantidadEnPeriodo >= 8 ? '#dc2626' : '#16a34a'}; font-weight:600;">${cantidadEnPeriodo}/8</span>`;
+        
+        const tdFecha = document.createElement('td');
+        tdFecha.textContent = fechaGuardado;
+        
+        const tdAcciones = document.createElement('td');
+        const btnEliminar = document.createElement('button');
+        btnEliminar.className = 'ghost';
+        btnEliminar.style.fontSize = '0.85rem';
+        btnEliminar.style.padding = '0.4rem 0.8rem';
+        btnEliminar.style.color = '#dc2626';
+        btnEliminar.textContent = 'Eliminar';
+        btnEliminar.addEventListener('click', () => eliminarReserva(cedula, filtroTexto));
+        
+        tdAcciones.appendChild(btnEliminar);
+        
+        tr.appendChild(tdCedula);
+        tr.appendChild(tdBloqueado);
+        tr.appendChild(tdPeriodo);
+        tr.appendChild(tdCantidad);
+        tr.appendChild(tdFecha);
+        tr.appendChild(tdAcciones);
+        
+        bodyTablaAdmin.appendChild(tr);
+      });
+    }
+
+    // Actualizar controles de paginación
+    function actualizarControlesPaginacion(totalRegistros){
+      const totalPaginas = Math.ceil(totalRegistros / itemsPorPagina);
+      const indicadorPagina = $('#indicadorPagina');
+      const btnPaginaAnterior = $('#btnPaginaAnterior');
+      const btnPaginaSiguiente = $('#btnPaginaSiguiente');
+      
+      if(indicadorPagina){
+        if(totalPaginas <= 1){
+          indicadorPagina.style.display = 'none';
+          if(btnPaginaAnterior) btnPaginaAnterior.style.display = 'none';
+          if(btnPaginaSiguiente) btnPaginaSiguiente.style.display = 'none';
+        } else {
+          indicadorPagina.style.display = 'inline';
+          indicadorPagina.textContent = `Página ${paginaActual} de ${totalPaginas}`;
+          if(btnPaginaAnterior) btnPaginaAnterior.style.display = paginaActual === 1 ? 'none' : 'inline-block';
+          if(btnPaginaSiguiente) btnPaginaSiguiente.style.display = paginaActual === totalPaginas ? 'none' : 'inline-block';
+        }
+      }
+    }
+
+    // Ir a página anterior
+    function irPaginaAnterior(){
+      if(paginaActual > 1){
+        paginaActual--;
+        renderPagina(filtroActual);
+        actualizarControlesPaginacion(obtenerRegistrosFiltrados(filtroActual).length);
+        window.scrollTo({top: 0, behavior: 'smooth'});
+      }
+    }
+
+    // Ir a página siguiente
+    function irPaginaSiguiente(){
+      const totalRegistros = obtenerRegistrosFiltrados(filtroActual).length;
+      const totalPaginas = Math.ceil(totalRegistros / itemsPorPagina);
+      if(paginaActual < totalPaginas){
+        paginaActual++;
+        renderPagina(filtroActual);
+        actualizarControlesPaginacion(totalRegistros);
+        window.scrollTo({top: 0, behavior: 'smooth'});
+      }
+    }
+
+    // Eliminar reserva
+    function eliminarReserva(cedula, filtroTexto = ''){
+      if(!confirm(`¿Eliminar la reserva de la cédula ${cedula}?`)) return;
+      
+      delete reservas[cedula];
+      localStorage.setItem('vacaciones_reservas_v1', JSON.stringify(reservas));
+      actualizarBloqueosDesdeReservas();
+      renderTablaAdmin(filtroTexto);
+      renderResumenPeriodos();
+      actualizarEstadisticas();
+      mostrarToast('Reserva eliminada');
+    }
+
+    // Deriva la lista de bloqueados a partir de las reservas actuales
+    function actualizarBloqueosDesdeReservas(){
+      const bloq = {};
+      Object.keys(reservas).forEach(c => { if(c) bloq[c] = true; });
+      guardarBloqueados(bloq);
+    }
+
+    // Renderizar resumen de periodos
+    function renderResumenPeriodos(){
+      resumenPeriodos.innerHTML = '';
+      const contador = contarPersonasPorPeriodo();
+      const periodosUnicos = [...new Set(Object.values(reservas).map(r => r?.periodoEtiqueta).filter(Boolean))];
+      
+      if(periodosUnicos.length === 0){
+        resumenPeriodos.textContent = 'Sin periodos registrados';
+        return;
+      }
+      
+      periodosUnicos.sort().forEach(periodo => {
+        const cantidad = contador[periodo] || 0;
+        const porcentaje = Math.round((cantidad / 8) * 100);
+        const estaLleno = cantidad >= 8;
+        
+        const div = document.createElement('div');
+        div.style.cssText = `
+          background: linear-gradient(135deg, ${estaLleno ? 'rgba(239,68,68,.1)' : 'rgba(22,163,74,.1)'}, ${estaLleno ? 'rgba(239,68,68,.05)' : 'rgba(22,163,74,.05)'});
+          padding: 1rem;
+          border-radius: 12px;
+          border: 1px solid ${estaLleno ? 'rgba(239,68,68,.2)' : 'rgba(22,163,74,.2)'};
+        `;
+        
+        const header = document.createElement('div');
+        header.style.cssText = `font-weight:600; color:${estaLleno ? '#dc2626' : '#16a34a'}; margin-bottom:0.5rem;`;
+        header.textContent = `${estaLleno ? '🔴 LLENO' : '✅'} ${periodo}`;
+        
+        const valor = document.createElement('div');
+        valor.style.cssText = `font-size:2rem; font-weight:800; color:${estaLleno ? '#dc2626' : '#16a34a'}; margin-bottom:0.3rem;`;
+        valor.textContent = `${cantidad}/8`;
+        
+        const progressBar = document.createElement('div');
+        progressBar.style.cssText = 'background:rgba(0,0,0,.1); height:6px; border-radius:3px; overflow:hidden;';
+        
+        const progressFill = document.createElement('div');
+        progressFill.style.cssText = `background:${estaLleno ? '#dc2626' : '#16a34a'}; height:100%; width:${porcentaje}%; transition:.3s;`;
+        
+        progressBar.appendChild(progressFill);
+        
+        div.appendChild(header);
+        div.appendChild(valor);
+        div.appendChild(progressBar);
+        
+        resumenPeriodos.appendChild(div);
+      });
+    }
+
+    // Actualizar estadísticas
+    function actualizarEstadisticas(){
+      const totalReservas = Object.keys(reservas).length;
+      const colaboradoresUnicos = totalReservas;
+      const contador = contarPersonasPorPeriodo();
+      const periodosLlenos = Object.values(contador).filter(c => c >= 8).length;
+      const ocupacion = Object.values(contador).length > 0 
+        ? Math.round(Object.values(contador).reduce((a, b) => a + b, 0) / (Object.values(contador).length * 8) * 100)
+        : 0;
+      
+      $('#statTotal').textContent = totalReservas;
+      $('#statColaboradores').textContent = colaboradoresUnicos;
+      $('#statPeriodosLlenos').textContent = periodosLlenos;
+      $('#statOcupacion').textContent = ocupacion + '%';
+    }
+
+    // Exportar a Excel (formato HTML que Excel abre nativamente)
+    function exportarAExcel(){
+      try {
+        const contador = contarPersonasPorPeriodo();
+        const fecha_export = new Date().toLocaleString('es-CO');
+        
+        let html = `
+          <html xmlns:x="urn:schemas-microsoft-com:office:excel">
+          <head>
+            <meta charset="UTF-8">
+            <style>
+              table { border-collapse: collapse; width: 100%; }
+              th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+              th { background-color: #8B7CF6; color: white; font-weight: bold; }
+              tr:nth-child(even) { background-color: #f9f9f9; }
+              .titulo { font-size: 16px; font-weight: bold; padding: 20px 0; }
+              .fecha { font-size: 12px; color: #666; margin-bottom: 10px; }
+              .resumen { margin-top: 30px; font-weight: bold; }
+            </style>
+          </head>
+          <body>
+            <div class="titulo">REPORTE DE RESERVAS DE VACACIONES</div>
+            <div class="fecha">Fecha de exportación: ${fecha_export}</div>
+            <br>
+            <table>
+              <thead>
+                <tr>
+                  <th>Cédula</th>
+                  <th>Periodo</th>
+                  <th>Personas/Cupos</th>
+                  <th>Fecha y Hora de Reserva</th>
+                </tr>
+              </thead>
+              <tbody>
+        `;
+        
+        // Agregar datos de reservas
+        Object.values(reservas).forEach(r => {
+          if(!r || !r.cedula) return;
+          const cantidadEnPeriodo = contador[r.periodoEtiqueta] || 0;
+          const fecha = new Date(r.guardadoEn || Date.now()).toLocaleString('es-CO');
+          const cedula = String(r.cedula);
+          const periodo = String(r.periodoEtiqueta || '');
+          const cupos = `${cantidadEnPeriodo}/8`;
+          html += `
+            <tr>
+              <td>${cedula}</td>
+              <td>${periodo}</td>
+              <td>${cupos}</td>
+              <td>${fecha}</td>
+            </tr>
+          `;
+        });
+        
+        html += `
+              </tbody>
+            </table>
+            <div class="resumen" style="margin-top: 30px;">RESUMEN</div>
+            <table style="margin-top: 10px; width: 400px;">
+              <tr>
+                <td><b>Total de reservas:</b></td>
+                <td>${Object.keys(reservas).length}</td>
+              </tr>
+        `;
+        
+        // Agregar resumen por periodo
+        const contador_periodos = contarPersonasPorPeriodo();
+        Object.keys(contador_periodos).sort().forEach(periodo => {
+          const cantidad = contador_periodos[periodo];
+          html += `
+            <tr>
+              <td>${periodo}</td>
+              <td>${cantidad}/8</td>
+            </tr>
+          `;
+        });
+        
+        html += `
+            </table>
+          </body>
+          </html>
+        `;
+        
+        // Crear blob y descargar
+        const blob = new Blob([html], { type: 'application/vnd.ms-excel;charset=utf-8' });
+        const link = document.createElement('a');
+        const url = URL.createObjectURL(blob);
+        
+        link.setAttribute('href', url);
+        link.setAttribute('download', 'reservas_vacaciones_' + new Date().toISOString().split('T')[0] + '.xls');
+        link.style.visibility = 'hidden';
+        
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        
+        mostrarToast('Archivo Excel descargado ✅');
+      } catch(error) {
+        console.error('Error al exportar Excel:', error);
+        mostrarToast('Error al descargar el archivo', 'error');
+      }
+    }
+
+    // Event listeners
+    btnVolver.addEventListener('click', () => {
+      window.location.href = 'Agendavacaciones2026.html';
+    });
+
+    btnFiltrar.addEventListener('click', () => {
+      renderTablaAdmin(filtroInput.value);
+    });
+
+    btnLimpiarFiltro.addEventListener('click', () => {
+      filtroInput.value = '';
+      renderTablaAdmin('');
+    });
+
+    btnExportar.addEventListener('click', exportarAExcel);
+
+    filtroInput.addEventListener('keypress', (e) => {
+      if(e.key === 'Enter'){
+        renderTablaAdmin(filtroInput.value);
+      }
+    });
+
+    // Event listeners de paginación
+    $('#btnPaginaAnterior')?.addEventListener('click', irPaginaAnterior);
+    $('#btnPaginaSiguiente')?.addEventListener('click', irPaginaSiguiente);
+
+    // Inicialización
+    $('#year').textContent = new Date().getFullYear();
+    bloqueadosCache = leerBloqueados();
+    reservas = leerReservas();
+    actualizarBloqueosDesdeReservas();
+    renderTablaAdmin();
+    renderResumenPeriodos();
+    actualizarEstadisticas();
+  </script>
+</body>
+</html>

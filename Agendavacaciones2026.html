@@ -1,0 +1,1015 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Reserva tus vacaciones — # Somos-Cercanos</title>
+  <meta description="Portal para que los colaboradores reserven su periodo de vacaciones." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="datos.js"></script>
+  <script src="datos_periodos_especiales.js"></script>
+
+  <style>
+    :root{
+      --title-size: clamp(1.8rem, 2.6vw + 1rem, 3rem); /* tamaño reutilizable para títulos */
+      /* Paleta clara: tonos suaves y legibles */
+      --bg:#f5f7fb;
+      --card:#ffffff;
+      --primary:#8b7cf6; /* morado claro */
+      --primary-2:#6f5de6;
+      --accent:#2f80ed;  /* azul */
+      --text:#0f1724; /* texto oscuro para fondo claro */
+      --muted:#6b7280;
+      --ok:#16a34a;
+      --warn:#d97706;
+      --danger:#dc2626;
+      --border:rgba(15,23,36,.06);
+      --glass:rgba(15,23,36,.03);
+    }
+    *{ box-sizing:border-box }
+    html,body{ height:100% }
+    body{
+      margin:0; font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      color:var(--text);
+      background:
+        linear-gradient(180deg, rgba(139,124,246,.12), rgba(47,128,237,.12)),
+        radial-gradient(1200px 500px at 80% -10%, rgba(47,128,237,.08), transparent 60%),
+        radial-gradient(900px 600px at -10% 10%, rgba(139,124,246,.06), transparent 60%),
+        linear-gradient(180deg, #f8fbff, var(--bg));
+    }
+    .container{ max-width:1100px; margin:0 auto; padding:0 1rem }
+    header{
+      position:sticky; top:0; z-index:10;
+      backdrop-filter: blur(8px);
+      background:rgba(255,255,255,.85);
+      border-bottom:1px solid var(--border);
+      color:var(--text);
+    }
+    .nav{ display:flex; align-items:center; justify-content:space-between; padding:1rem 0 }
+    .brand{ display:flex; align-items:center; gap:.8rem; font-weight:800; letter-spacing:.3px; font-size: var(--title-size); }
+    .brand img{ height:1.5em; width:auto; mix-blend-mode:normal; filter:none; }
+    .brand > span{
+      font-weight:800;
+      background: linear-gradient(90deg, var(--primary), var(--accent));
+      -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent;
+      line-height:1;
+    }
+    .hero{
+      display:grid; grid-template-columns: 1.2fr .8fr; gap:1.5rem;
+      padding:2rem 0 1.25rem;
+      align-items:center;
+    }
+    @media (max-width:900px){
+      .hero{ grid-template-columns: 1fr }
+    }
+    @media (max-width:500px){
+      .hero{ padding: 1.5rem 0 0.75rem }
+      .nav{ padding: 0.8rem 0 }
+    }
+    h1{
+      font-size: var(--title-size);
+      line-height:1.05; margin:.2rem 0 .8rem;
+      background: linear-gradient(90deg, var(--primary), var(--accent));
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+      font-weight:800;
+      text-shadow: 0 6px 18px rgba(15,23,36,0.06);
+    }
+    @media (max-width:500px){
+      h1{ font-size: clamp(1.5rem, 2vw + 0.8rem, 2.2rem); margin-bottom: 0.5rem }
+    }
+    .subtitle{
+      color:var(--muted); font-weight:600; margin-top:.2rem;
+    }
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,1), rgba(248,250,252,1));
+      border:1px solid var(--border);
+      border-radius:16px; padding:1rem;
+      box-shadow:0 8px 24px rgba(15,23,36,.06);
+      color:var(--text);
+    }
+    .grid{ display:grid; gap:1rem }
+    .col-2{ grid-template-columns: 2fr 1fr; }
+    .input-row{ display:flex; gap:.6rem; align-items:center; }
+    input, button, select{
+      border-radius:12px; border:1px solid var(--border); background:var(--card); color:var(--text);
+      padding:.9rem 1rem; font-size:1rem; min-height: 44px;
+    }
+    input::placeholder{ color:var(--muted) }
+    button{
+      cursor:pointer; font-weight:700;
+      background: linear-gradient(180deg, rgba(139,124,246,.25), rgba(47,128,237,.2));
+      border:1px solid rgba(139,124,246,.35);
+    }
+    button.primary{
+      background: linear-gradient(180deg, var(--primary), var(--primary-2));
+      border-color: transparent; color:white;
+    }
+    @media (max-width:500px){
+      input, button, select{ padding: 0.75rem 0.9rem; font-size: 16px }
+      button.primary, button.ghost{ min-height: 44px; min-width: 44px }
+      .input-row{ gap: 0.4rem; flex-direction: column }
+      input{ width: 100% !important }
+      button{ width: 100% }
+    }
+    button.ghost{ background:transparent; border-color:var(--border); color:var(--text) }
+    .periodos{
+      display:grid; grid-template-columns: repeat(3, 1fr); gap:.8rem; margin-top:.8rem;
+    }
+    @media (max-width:900px){ .periodos{ grid-template-columns: 1fr 1fr } }
+    @media (max-width:600px){ .periodos{ grid-template-columns: 1fr } }
+    @media (max-width:500px){ .periodos{ gap: 0.6rem; margin-top: 0.6rem } }
+    .periodo{
+      position:relative; padding:1.6rem 1rem 1rem 1rem; border-radius:14px; border:1px solid var(--border);
+      background:linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.01));
+      transition:.15s transform; touch-action: manipulation;
+    }
+    @media (max-width:500px){ .periodo{ padding: 1.2rem 0.8rem 0.8rem } }
+    .periodo:hover{ transform: translateY(-2px) }
+    .periodo input[type="radio"]{ position:absolute; inset:0; opacity:0; cursor:pointer }
+    .tag{ display:inline-flex; gap:.4rem; align-items:center; font-size:.82rem; color:#d7d9e1;
+      background:rgba(139,124,246,.22); border:1px solid rgba(139,124,246,.35); padding:.2rem .9rem .2rem .5rem; border-radius:999px }
+
+    /* Mejora visual para los badges 'Opción' y estado seleccionado */
+    .tag{
+      color:#6b21a8; /* texto más vivo */
+      background: rgba(124,58,237,0.08); /* fondo suave morado */
+      border-color: rgba(124,58,237,0.18);
+      font-weight:700;
+    }
+
+    /* Cuando la tarjeta de periodo esté seleccionada */
+    .periodo.selected{
+      border-color: rgba(16,185,129,0.95); /* verde vivo */
+      box-shadow: 0 12px 30px rgba(16,185,129,0.08);
+      transform: translateY(-4px);
+    }
+
+    .periodo.selected .tag{
+      background: rgba(16,185,129,0.12);
+      color: #065f46;
+      border-color: rgba(16,185,129,0.25);
+    }
+
+    /* Badge y estilo para periodos especiales */
+    .badge-especial{
+      position:absolute; top:0.6rem; right:0.6rem; left:auto; background:rgba(239,68,68,.12); color:#991b1b;
+      border:1px solid rgba(239,68,68,.22); padding:.18rem .45rem; border-radius:8px; font-size:0.72rem; font-weight:700;
+      display:inline-flex; align-items:center; gap:.3rem;
+    }
+
+    .periodo.special{
+      border-color: rgba(220,38,38,0.95);
+      box-shadow: 0 12px 30px rgba(220,38,38,0.06);
+    }
+
+    /* Elevación en hover para periodos especiales (como las opciones normales) */
+    .periodo.special:hover{
+      transform: translateY(-2px);
+    }
+    /* Estado 'no aplicable' para periodos (por ejemplo N/A) */
+    .periodo.na{
+      opacity: 0.55;
+      pointer-events: none;
+      cursor: not-allowed;
+      filter: grayscale(.06);
+    }
+    .muted{ color:var(--muted) }
+    .success{ color:var(--ok) }
+    .danger{ color:var(--danger) }
+    .warn{ color:var(--warn) }
+    .toolbar{ display:flex; gap:.5rem; flex-wrap:wrap; }
+    .right{ text-align:right }
+    .img-wrap{ position:relative; display:flex; align-items:center; justify-content:center; min-height:200px; overflow:hidden; border-radius:16px; }
+    .img-wrap.card{ background: var(--card); padding:28px; box-shadow:0 14px 38px rgba(15,23,36,.06); border-radius:16px; }
+    @media (max-width:600px){ .img-wrap{ min-height: 150px } .img-wrap.card{ padding: 20px } }
+    @media (max-width:500px){ .img-wrap{ min-height: 120px } .img-wrap.card{ padding: 16px } }
+    .img-wrap .logo-spot{ width:220px; height:220px; border-radius:18px; display:flex; align-items:center; justify-content:center; background: #ffffff; box-shadow:0 18px 48px rgba(15,23,36,.06); border:1px solid var(--border); padding:18px; }
+    .img-wrap .logo-spot img{ max-width:80%; height:auto; display:block; filter:none; background:transparent; }
+    .kpi{ display:flex; gap:1rem; flex-wrap:wrap; margin-top:.6rem }
+    .kpi{ display:flex; gap:1rem; flex-wrap:wrap; margin-top:.6rem }
+    /* KPIs más visibles: fondo suave, sombra, mayor tamaño y contraste */
+    .kpi > div{
+      padding:.8rem 1rem;
+      border-radius:12px;
+      background: linear-gradient(180deg, rgba(139,124,246,.10), rgba(47,128,237,.06));
+      border:1px solid rgba(47,128,237,.18);
+      color:var(--text);
+      font-weight:700;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      min-width:220px;
+      box-shadow: 0 10px 30px rgba(47,128,237,.06);
+    }
+    @media (max-width:600px){ .kpi > div{ min-width: 150px; padding: 0.6rem 0.8rem } }
+    @media (max-width:500px){ .kpi > div{ min-width: 120px; padding: 0.5rem 0.6rem; font-size: 0.9rem } }
+
+    /* Valor principal (cantidad) */
+    #kpiTotal{
+      font-size:1.4rem;
+      font-weight:900;
+      color: var(--primary-2);
+      margin-bottom:0.15rem;
+      letter-spacing:0.2px;
+    }
+    @media (max-width:600px){ #kpiTotal{ font-size: 1.1rem } }
+    @media (max-width:500px){ #kpiTotal{ font-size: 1rem } }
+
+    /* Fecha/texto secundario */
+    #kpiFecha{
+      font-size:0.95rem;
+      font-weight:700;
+      color: var(--muted);
+      display:block;
+      margin-top:0.15rem;
+    }
+    @media (max-width:600px){ #kpiFecha{ font-size: 0.8rem } }
+    @media (max-width:500px){ #kpiFecha{ font-size: 0.75rem } }
+    footer{ color:var(--muted); padding:2rem 0; font-size:.92rem; text-align:center }
+    .table-wrap{ overflow:auto; border-radius:12px; border:1px solid var(--border) }
+    table{ width:100%; border-collapse: collapse; }
+    th, td{ padding:.75rem; border-bottom:1px solid var(--border); text-align:left }
+    th{ color:#cfd6e6; font-weight:700 }
+    .toast{
+      position: fixed; right:16px; bottom:16px; padding:1rem 1.5rem; border-radius:12px;
+      background: #16a34a; border:2px solid #15803d; color:#ffffff;
+      box-shadow:0 10px 30px rgba(0,0,0,.4); display:none; z-index:50;
+      font-weight:700; font-size:1rem; max-width:400px;
+    }
+    .toast.error{ background: #dc2626; border-color: #991b1b; color:#ffffff; }
+    @media (max-width:500px){
+      .toast{ left: 16px; right: 16px; max-width: none; padding: 0.9rem 1.2rem; font-size: 0.9rem; bottom: 20px }
+    }
+    .hidden{ display:none !important }
+    
+    /* Modal de contraseña */
+    .modal-backdrop {
+      position: fixed; inset: 0; background: rgba(0,0,0,.5); display: none; z-index: 100;
+      align-items: center; justify-content: center;
+    }
+    .modal-backdrop.active { display: flex; }
+    .modal-content {
+      background: var(--card); border-radius: 16px; padding: 2rem; max-width: 400px; width: 90%;
+      box-shadow: 0 20px 60px rgba(0,0,0,.3); animation: slideIn .3s ease-out; max-height: 90vh; overflow-y: auto;
+    }
+    @media (max-width:500px){
+      .modal-content{ padding: 1.5rem; max-width: 95%; border-radius: 12px }
+      .modal-title{ font-size: 1.2rem; margin-bottom: 0.8rem }
+      .modal-buttons{ flex-direction: column-reverse; gap: 0.8rem }
+    }
+    @keyframes slideIn {
+      from { transform: translateY(-20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    .modal-title { font-size: 1.5rem; font-weight: 800; color: var(--primary); margin-bottom: 1rem; }
+    .modal-password-group {
+      position: relative; margin-bottom: 1.5rem;
+    }
+    .modal-password-input {
+      width: 100%; padding: 0.9rem 2.5rem 0.9rem 1rem; border: 1px solid var(--border);
+      border-radius: 12px; font-family: inherit; font-size: 1rem;
+      background: var(--card); color: var(--text);
+    }
+    .modal-password-input:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(139,124,246,.1); }
+    .modal-toggle-password {
+      position: absolute; right: 12px; top: 50%; transform: translateY(-50%);
+      background: none; border: none; color: var(--muted); cursor: pointer; font-size: 1.2rem;
+      padding: 0; width: 30px; height: 30px; display: flex; align-items: center; justify-content: center;
+    }
+    .modal-toggle-password:hover { color: var(--primary); }
+    .modal-buttons {
+      display: flex; gap: 1rem; margin-top: 2rem; flex-wrap: wrap;
+    }
+    .modal-btn {
+      flex: 1; padding: 0.8rem; border: none; border-radius: 12px; font-weight: 600; cursor: pointer;
+      transition: .2s;
+    }
+    .modal-btn-confirm { background: var(--primary); color: white; }
+    .modal-btn-confirm:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(139,124,246,.25); }
+    .modal-btn-cancel { background: transparent; border: 1px solid var(--border); color: var(--text); }
+    .modal-btn-cancel:hover { background: var(--glass); border-color: var(--primary); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <!-- Logo que compartiste -->
+        <img src="images/Logo.jpg" alt="Logo" style="height:36px;width:auto;">
+        <span>Vacaciones</span>
+      </div>
+      <button id="btnAdmin" class="ghost" style="font-size:0.9rem; padding:0.5rem 1rem; border-radius:8px; background:rgba(139,124,246,.1); border:1px solid rgba(139,124,246,.3); color:#8b7cf6; cursor:pointer; font-weight:600;">🔐 Admin</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="card">
+        <h1>Reserva tus vacaciones<br><span class="subtitle"># Somos-Cercanos</span></h1>
+        <p class="muted">Ingresa tu <b>cédula</b> para ver los periodos disponibles y guardar tu elección.</p>
+
+        <!-- Buscador de cédula -->
+        <div class="input-row" style="margin-top:.6rem">
+          <input id="cedula" inputmode="numeric" minlength="5" maxlength="12" placeholder="Escribe tu cédula…" aria-label="Cédula del colaborador" />
+          <button id="btnBuscar" class="primary">Buscar</button>
+        </div>
+
+        <!-- KPIs simples -->
+        <div class="kpi">
+          <div><span id="kpiTotal">0</span> reservas registradas</div>
+          <div>Última actualización: <span id="kpiFecha">—</span></div>
+        </div>
+      </div>
+
+      <div class="img-wrap card" aria-hidden="false">
+        <!-- Logo Belcorp en formato destacado -->
+        <div class="logo-spot" role="img" aria-label="Logo Belcorp">
+          <img src="images/Logo.jpg" alt="Logo Belcorp">
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Periodos -->
+    <section id="sectionPeriodos" class="card hidden" aria-live="polite" aria-labelledby="periodos-title">
+      <div class="grid col-2" style="gap:1rem; align-items:center;">
+        <div>
+          <h2 id="periodos-title">Elige tu periodo</h2>
+          <p class="muted" id="subCédula"></p>
+          <div id="mensajeReserva" class="muted"></div>
+
+          <div id="listaPeriodos" class="periodos"><!-- Radios dinámicos --></div>
+
+          <!-- Contenedor para mostrar los 3 periodos especiales (si existen) -->
+          <div id="boxPeriodosEspeciales" style="margin-top:1rem;">
+            <!-- Rellenado dinámicamente -->
+          </div>
+
+          <div class="input-row" style="margin-top:1rem;">
+            <button id="btnReservar" class="primary">Reservar</button>
+            <button id="btnEliminar" class="ghost" style="display:none; background-color: rgba(239,68,68,.1); border-color: rgba(239,68,68,.3); color:#dc2626;">Eliminar reserva</button>
+          </div>
+        </div>
+
+        <aside class="card">
+            <h3 style="margin-top:0">Información</h3>
+            <ul class="muted">
+              <li>Se muestran 6 opciones de vacaciones en periodos habituales.</li>
+              <li>Se muestran 3 opciones de vacaciones en periodos especiales, (si cumple con los requisitos).</li>
+              <li>Elige uno y toma un pantallazo como comprobante.</li>
+              <li>Si tienes dudas o inconvenientes con tu reserva, comunícate con tu líder.</li>
+            </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Panel de Lideres -->
+    <section id="panelRRHH" class="card hidden" aria-labelledby="rrhh-title">
+      <h2 id="rrhh-title">Reservas registradas</h2>
+      <div class="table-wrap" style="margin-top:.6rem;">
+        <table>
+          <thead>
+            <tr>
+              <th>Cédula</th>
+              <th>Periodos Especiales</th>
+              <th>Periodo</th>
+              <th>Cupos</th>
+              <th>Guardado</th>
+              <th style="width:120px;">Acciones</th>
+            </tr>
+          </thead>
+          <tbody id="tablaReservas"><!-- filas dinámicas --></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> — Portal de Vacaciones. Inspirado en nuestros colaboradores Belcorp 💜💙
+  </footer>
+
+  <!-- Toast -->
+  <div id="toast" class="toast" role="status"></div>
+
+  <!-- Modal de contraseña -->
+  <div id="modalPassword" class="modal-backdrop">
+    <div class="modal-content">
+      <div class="modal-title">🔐 Acceso Administrador</div>
+      <div class="modal-password-group">
+        <input type="password" id="inputPassword" class="modal-password-input" placeholder="Ingresa la contraseña" autocomplete="off">
+        <button id="togglePassword" class="modal-toggle-password" title="Mostrar/ocultar">👁️</button>
+      </div>
+      <div class="modal-buttons">
+        <button id="btnModalConfirm" class="modal-btn modal-btn-confirm">Entrar</button>
+        <button id="btnModalCancel" class="modal-btn modal-btn-cancel">Cancelar</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    /* ============ CONFIGURACIÓN ============ */
+
+    // Cargará datos de colaboradores (incrustados directamente)
+    let COLABORADORES = {}; // se llena con datos locales
+    
+    // 6 Períodos configurables
+    const PERIODOS = [
+      { id:'P1', etiqueta:'Periodo 1', inicio:'2026-01-02', fin:'2026-01-15' },
+      { id:'P2', etiqueta:'Periodo 2', inicio:'2026-02-16', fin:'2026-02-28' },
+      { id:'P3', etiqueta:'Periodo 3', inicio:'2026-04-01', fin:'2026-04-15' },
+      { id:'P4', etiqueta:'Periodo 4', inicio:'2026-06-16', fin:'2026-06-30' },
+      { id:'P5', etiqueta:'Periodo 5', inicio:'2026-09-01', fin:'2026-09-15' },
+      { id:'P6', etiqueta:'Periodo 6', inicio:'2026-11-16', fin:'2026-11-30' },
+    ];
+
+    // Lista configurable de números que identifican 'periodos especiales'
+    // Si tus textos usan etiquetas como "PERIODO-7" se detectarán automáticamente.
+    const SPECIAL_PERIOD_NUMS = [4,7,8,12,15,16];
+
+    function esPeriodoEspecial(opcionTexto){
+      if(!opcionTexto) return false;
+      // Si el texto menciona "especial" (caso-insensible), es especial
+      if(/especial/i.test(opcionTexto)) return true;
+      // Buscar formatos como PERIODO-12 o PERIODO- 12
+      const m = opcionTexto.match(/PERIODO\s*-?\s*(\d+)/i);
+      if(m && m[1]){
+        const n = parseInt(m[1], 10);
+        return SPECIAL_PERIOD_NUMS.includes(n);
+      }
+      return false;
+    }
+
+    // Cargar datos desde la variable global DATOS_COLABORADORES (cargada desde datos.js)
+    function cargarDatos() {
+      if (typeof DATOS_COLABORADORES === 'undefined') {
+        console.error('❌ DATOS_COLABORADORES no está disponible');
+        return;
+      }
+      
+      DATOS_COLABORADORES.forEach(d => {
+        // Guardar como objeto con opciones y periodosEspeciales (fallback a N/A)
+        COLABORADORES[String(d.cedula)] = {
+          opciones: Array.isArray(d.opciones) ? d.opciones : (d.opciones || []),
+          periodosEspeciales: Array.isArray(d.periodosEspeciales) ? d.periodosEspeciales : (d.periodosEspeciales ? [d.periodosEspeciales] : null)
+        };
+        // Asegurar que existan 3 valores en periodosEspeciales
+        if(!Array.isArray(COLABORADORES[String(d.cedula)].periodosEspeciales)){
+          COLABORADORES[String(d.cedula)].periodosEspeciales = ['N/A','N/A','N/A'];
+        } else {
+          // Completar con 'N/A' si faltan
+          while(COLABORADORES[String(d.cedula)].periodosEspeciales.length < 3){
+            COLABORADORES[String(d.cedula)].periodosEspeciales.push('N/A');
+          }
+        }
+      });
+      console.log(`✅ ${Object.keys(COLABORADORES).length} colaboradores cargados`);
+    }
+
+    // Modo validación: permite todas las cédulas
+    const MODO_VALIDACION = false;
+
+    // Clave de almacenamiento local
+    const LS_KEY = 'vacaciones_reservas_v1';
+
+    /* ============ UTILIDADES ============ */
+
+    const $ = sel => document.querySelector(sel);
+    const $$ = sel => Array.from(document.querySelectorAll(sel));
+
+    const fmtFecha = (iso) => {
+      const d = new Date(iso+"T12:00:00");
+      return d.toLocaleDateString('es-CO', { year:'numeric', month:'short', day:'2-digit' });
+    };
+
+    const hoyStr = () => new Date().toLocaleString('es-CO', { dateStyle:'medium', timeStyle:'short' });
+
+    function leerReservas(){
+      try{
+        return JSON.parse(localStorage.getItem(LS_KEY)) || {};
+      }catch{ return {} }
+    }
+    function guardarReservas(data){
+      localStorage.setItem(LS_KEY, JSON.stringify(data));
+      actualizarKpis();
+    }
+
+    // --- Gestión de bloqueos (cedulas que no pueden modificar su reserva)
+    const BLOQ_KEY = 'vacaciones_bloqueadas_v1';
+    function leerBloqueados(){
+      try{ return JSON.parse(localStorage.getItem(BLOQ_KEY)) || {}; }catch{ return {}; }
+    }
+    function guardarBloqueados(obj){
+      localStorage.setItem(BLOQ_KEY, JSON.stringify(obj));
+    }
+    function estaBloqueado(ced){
+      if(!ced) return false;
+      const b = leerBloqueados();
+      return !!b[String(ced)];
+    }
+
+    function mostrarToast(msg, tipo){
+      const el = $('#toast');
+      el.textContent = msg;
+      el.classList.toggle('error', tipo==='error');
+      el.style.display = 'block';
+      setTimeout(()=>{ el.style.display='none' }, 2600);
+    }
+
+    /* ============ Estado y elementos ============ */
+    const inputCedula = $('#cedula');
+    const btnBuscar = $('#btnBuscar');
+    const btnAdmin = $('#btnAdmin');
+    const sectionPeriodos = $('#sectionPeriodos');
+    const listaPeriodos = $('#listaPeriodos');
+    const btnReservar = $('#btnReservar');
+    const btnEliminar = $('#btnEliminar');
+    const panelRRHH = $('#panelRRHH');
+    const tablaReservas = $('#tablaReservas');
+    const subCedula = $('#subCédula');
+    const mensajeReserva = $('#mensajeReserva');
+    const kpiTotal = $('#kpiTotal');
+    const kpiFecha = $('#kpiFecha');
+    const year = $('#year');
+
+    let cedulaActual = '';
+    let reservas = leerReservas();
+
+    function actualizarKpis(){
+      reservas = leerReservas();
+      const total = Object.keys(reservas).length;
+      kpiTotal.textContent = total;
+      kpiFecha.textContent = hoyStr();
+    }
+
+    /* ============ Renderizar periodos ============ */
+    /* ============ RENDERIZAR PERÍODOS DESDE LAS OPCIONES DE LA CÉDULA ============ */
+    // Contar cuántas personas tienen reservado cada periodo (por texto de opción)
+    function contarPersonasPorPeriodo(){
+      const contador = {};
+      Object.values(reservas).forEach(r => {
+        const etiqueta = r.periodoEtiqueta;
+        contador[etiqueta] = (contador[etiqueta] || 0) + 1;
+      });
+      return contador;
+    }
+
+    // Actualizar disponibilidad de periodos (deshabilitar si hay 8+ personas)
+    function actualizarDisponibilidad(){
+      const contador = contarPersonasPorPeriodo();
+      $$('#listaPeriodos input[type="radio"]').forEach(radio => {
+        const opcion = radio.getAttribute('data-opcion');
+        const cantidad = contador[opcion] || 0;
+        const yaEstaLleno = cantidad >= 8;
+
+        // Detectar si esta opción está marcada como N/A (no aplicable)
+        const esNA = radio.dataset && radio.dataset.na === '1';
+
+        // Si es N/A, mantener deshabilitado; sino deshabilitar solo si ya está lleno
+        radio.disabled = esNA || yaEstaLleno;
+
+        // Cambiar estilo del label según el estado (N/A tiene prioridad)
+        const label = radio.closest('.periodo');
+        if(esNA){
+          // Mantener estilo atenuado y no interactivo (clase .na ya aplicada en el render)
+          label.style.opacity = '0.55';
+          label.style.pointerEvents = 'none';
+          label.style.cursor = 'not-allowed';
+          // Asegurar que no muestre badge de lleno
+          const badgeLleno = label.querySelector('.badge-lleno'); if(badgeLleno) badgeLleno.remove();
+        } else if(yaEstaLleno){
+          label.style.opacity = '0.5';
+          label.style.pointerEvents = 'none';
+          label.style.cursor = 'not-allowed';
+          // Agregar indicador de lleno
+          let badge = label.querySelector('.badge-lleno');
+          if(!badge){
+            badge = document.createElement('div');
+            badge.className = 'badge-lleno';
+            badge.textContent = '🔒 Lleno';
+            badge.style.cssText = 'position:absolute; top:0.5rem; right:0.5rem; background:rgba(239,68,68,.2); color:#dc2626; padding:0.2rem 0.5rem; border-radius:6px; font-size:0.75rem; font-weight:600;';
+            label.style.position = 'relative';
+            label.appendChild(badge);
+          }
+        } else {
+          label.style.opacity = '1';
+          // Solo restaurar pointerEvents si la tarjeta no es N/A
+          label.style.pointerEvents = '';
+          label.style.cursor = 'pointer';
+          const badge = label.querySelector('.badge-lleno');
+          if(badge) badge.remove();
+        }
+      });
+    }
+
+    // Renderiza los 9 periodos juntos: 6 normales + 3 especiales (si existen)
+    function renderPeriodosCombinados(periodosArr, seleccionActualId){
+      listaPeriodos.innerHTML = '';
+      if(!periodosArr || periodosArr.length === 0){
+        listaPeriodos.innerHTML = '<p style="color:var(--muted); text-align:center;">No hay períodos disponibles para esta cédula.</p>';
+        return;
+      }
+
+      periodosArr.forEach((opcion, index) => {
+        const periodoId = `P${index + 1}`;
+        const sel = periodoId === seleccionActualId ? 'checked' : '';
+
+        const label = document.createElement('label');
+        label.className = 'periodo';
+
+        const tag = document.createElement('div');
+        tag.className = 'tag';
+        tag.textContent = `Opción ${index + 1}`;
+
+        const contenido = document.createElement('div');
+        contenido.style.cssText = 'margin-top:.45rem; font-weight:700; font-size:0.85rem; line-height:1.4;';
+        contenido.textContent = opcion && opcion.trim() ? opcion : 'N/A';
+
+        const input = document.createElement('input');
+        input.type = 'radio';
+        input.name = 'periodo';
+        input.value = periodoId;
+        input.setAttribute('data-opcion', opcion);
+        if(sel) input.checked = true;
+        input.setAttribute('aria-label', `Opción ${index + 1}`);
+          // Si el texto del periodo es 'N/A' o está vacío, marcar como no seleccionable
+          const txt = (opcion || '').toString().trim();
+          if(!txt || txt === 'N/A' || txt === '----'){
+            input.disabled = true;
+            input.dataset.na = '1';
+            input.setAttribute('aria-disabled', 'true');
+          }
+
+        label.appendChild(tag);
+        label.appendChild(contenido);
+        label.appendChild(input);
+
+        // Si el input fue deshabilitado por ser N/A, marcar visualmente la tarjeta
+        if(input.disabled){
+          label.classList.add('na');
+          label.setAttribute('title','No aplicable para esta cédula');
+        }
+
+        // Las últimas 3 se consideran 'especiales' visualmente
+        if(index >= 6){
+          label.classList.add('special');
+          const badge = document.createElement('div');
+          badge.className = 'badge-especial';
+          badge.textContent = 'Periodo especial';
+          label.style.position = 'relative';
+          label.appendChild(badge);
+        } else {
+          // También señalar si el texto en sí indica que es especial
+          if(esPeriodoEspecial(opcion)){
+            label.classList.add('special');
+            const badge = document.createElement('div');
+            badge.className = 'badge-especial';
+            badge.textContent = 'Periodo especial';
+            label.style.position = 'relative';
+            label.appendChild(badge);
+          }
+        }
+
+        listaPeriodos.appendChild(label);
+      });
+
+      // Actualizar disponibilidad después de renderizar
+      actualizarDisponibilidad();
+    }
+
+    function mostrarPeriodosParaCedula(cedula){
+      if(!cedula || cedula.length < 5){
+        mostrarToast('Ingresa una cédula válida (mínimo 5 dígitos).','error');
+        return;
+      }
+      
+      cedula = String(cedula).trim(); // Asegurar que es string
+      console.log(`Buscando cédula: "${cedula}"`);
+      console.log(`Cédulas disponibles: ${Object.keys(COLABORADORES).length}`);
+      
+      cedulaActual = cedula;
+      subCedula.innerHTML = `Cédula: <b>${cedula}</b>`;
+
+      // Buscar opciones y periodos especiales de esta cédula en COLABORADORES
+      const datosCol = COLABORADORES[cedula];
+      let opcionesDelColaborador = null;
+      let periodosEspeciales = ['N/A','N/A','N/A'];
+      if(datosCol){
+        if(Array.isArray(datosCol)){
+          opcionesDelColaborador = datosCol;
+        } else {
+          opcionesDelColaborador = datosCol.opciones || [];
+          periodosEspeciales = datosCol.periodosEspeciales || periodosEspeciales;
+        }
+      }
+
+      console.log(`Opciones encontradas:`, opcionesDelColaborador);
+
+      // Periodos especiales serán renderizados junto con las opciones normales (combinados)
+
+      // Si la cédula está bloqueada por haber reservado antes, mostrar solo lectura
+      const bloqueadosActuales = leerBloqueados();
+      if(bloqueadosActuales[cedula]){
+        sectionPeriodos.classList.remove('hidden');
+        const reservaExistente = reservas[cedula];
+        if(reservaExistente){
+          // Mostrar solo el periodo guardado en modo lectura
+          listaPeriodos.innerHTML = `
+            <div style="padding:1rem; border-radius:12px; border:2px solid rgba(16,185,129,0.3); background:rgba(16,185,129,0.05);">
+              <div style="font-weight:700; color:#10b981; margin-bottom:0.5rem;">📌 Tu periodo reservado:</div>
+              <div style="font-size:1.1rem; font-weight:700; color:var(--text); word-break:break-word;">${reservaExistente.periodoEtiqueta}</div>
+            </div>
+          `;
+          mensajeReserva.innerHTML = `
+            <div style="background:rgba(255,235,238,.9); border:1px solid rgba(239,68,68,.2); padding:0.9rem; border-radius:8px; color:#991b1b;">
+              <strong>📋 Esta es la visualización de la reserva en el periodo de vacaciones que ya elegiste, NO SE PUEDE MODIFICAR</strong>
+            </div>
+          `;
+        } else {
+          listaPeriodos.innerHTML = '';
+          mensajeReserva.innerHTML = `
+            <div style="background:rgba(255,235,238,.9); border:1px solid rgba(239,68,68,.2); padding:0.9rem; border-radius:8px; color:#991b1b;">
+              Ya existe una reserva registrada con esta cédula y no puedes modificarla desde este portal. Si necesitas cambiarla, contacta al administrador.
+            </div>
+          `;
+        }
+        btnReservar.disabled = true;
+        btnReservar.style.display = 'none';
+        btnEliminar.style.display = 'none';
+        return;
+      }
+
+      if(!opcionesDelColaborador || opcionesDelColaborador.length === 0){
+        mensajeReserva.innerHTML = `<span style="color:var(--muted)">Cédula no encontrada en la base de datos. Se mostrarán períodos estándar.</span>`;
+      } else {
+        mensajeReserva.textContent = '';
+      }
+
+      // Cargar selección previa si existe
+      const existente = reservas[cedula];
+      if(existente){
+        // Mostrar el periodo guardado pero como solo lectura (sin posibilidad de cambiar)
+        listaPeriodos.innerHTML = `
+          <div style="padding:1rem; border-radius:12px; border:2px solid rgba(16,185,129,0.3); background:rgba(16,185,129,0.05);">
+            <div style="font-weight:700; color:#10b981; margin-bottom:0.5rem;">📌 Tu periodo reservado:</div>
+            <div style="font-size:1.1rem; font-weight:700; color:var(--text); word-break:break-word;">${existente.periodoEtiqueta}</div>
+          </div>
+        `;
+        mensajeReserva.innerHTML = `<span style="color:#10b981; font-weight:600;">✅ Reserva activa. Ya no puedes cambiarla desde aquí.</span>`;
+        // Ocultar botones de acción
+        btnReservar.disabled = true;
+        btnReservar.style.display = 'none';
+        btnEliminar.style.display = 'none';
+      } else {
+          // Mostrar opciones para elegir período: unir las 6 opciones y los 3 especiales
+          const combinados = [...opcionesDelColaborador, ...periodosEspeciales];
+          renderPeriodosCombinados(combinados);
+        btnReservar.disabled = false;
+        btnReservar.style.display = 'inline-block';
+        btnEliminar.style.display = 'none'; // Ocultar botón eliminar
+      }
+      sectionPeriodos.classList.remove('hidden');
+      // Enfocar primer periodo
+      setTimeout(()=>{ const r = listaPeriodos.querySelector('input[type="radio"]'); if(r) r.focus(); }, 50);
+    }
+
+    // Renderizar los 3 periodos especiales en el panel lateral
+    function renderPeriodosEspeciales(arr){
+      const cont = $('#boxPeriodosEspeciales');
+      if(!cont) return;
+      if(!arr || !Array.isArray(arr) || arr.length === 0){
+        cont.innerHTML = '';
+        return;
+      }
+      const items = arr.map((v,i) => {
+        const txt = v && v.trim() ? v : 'N/A';
+        return `<div style="padding:.45rem .6rem; border-radius:8px; margin-bottom:.35rem; background:rgba(243,244,246,.6); border:1px solid var(--border); font-weight:700;">Periodo Especial ${i+1}: <span style="font-weight:600; margin-left:.4rem;">${txt}</span></div>`;
+      }).join('');
+      cont.innerHTML = `
+        <div style="font-weight:700; margin-bottom:.45rem;">Periodos Especiales</div>
+        <div>${items}</div>
+      `;
+    }
+
+    /* ============ Acciones ============ */
+    btnBuscar.addEventListener('click', ()=> mostrarPeriodosParaCedula(inputCedula.value.trim()));
+    inputCedula.addEventListener('keypress', (e)=> {
+      if(e.key === 'Enter'){ e.preventDefault(); mostrarPeriodosParaCedula(inputCedula.value.trim()); }
+    });
+
+    btnReservar.addEventListener('click', ()=>{
+      if(!cedulaActual){ mostrarToast('Primero ingresa tu cédula.','error'); return; }
+      const radio = listaPeriodos.querySelector('input[type="radio"]:checked');
+      if(!radio){ mostrarToast('Selecciona un periodo.','error'); return; }
+      
+      const opcionTexto = radio.getAttribute('data-opcion');
+      const periodoId = radio.value;
+      
+      reservas[cedulaActual] = {
+        cedula: cedulaActual,
+        periodoId: periodoId,
+        periodoEtiqueta: opcionTexto,
+        guardadoEn: new Date().toISOString()
+      };
+      guardarReservas(reservas);
+
+      // Marcar la cédula como bloqueada para impedir volver a acceder a selección
+      try{
+        const bloq = leerBloqueados();
+        bloq[cedulaActual] = true;
+        guardarBloqueados(bloq);
+      }catch(e){ console.warn('No se pudo marcar bloqueo en localStorage', e); }
+
+      // Mostrar el periodo guardado en modo solo lectura
+      listaPeriodos.innerHTML = `
+        <div style="padding:1rem; border-radius:12px; border:2px solid rgba(16,185,129,0.3); background:rgba(16,185,129,0.05);">
+          <div style="font-weight:700; color:#10b981; margin-bottom:0.5rem;">📌 Tu periodo reservado:</div>
+          <div style="font-size:1.1rem; font-weight:700; color:var(--text); word-break:break-word;">${opcionTexto}</div>
+        </div>
+      `;
+      // Deshabilitar botones
+      btnReservar.disabled = true;
+      btnReservar.style.display = 'none';
+      btnLimpiar.style.display = 'none';
+      
+      // Aviso mejorado con recomendación de pantallazo
+      mensajeReserva.innerHTML = `
+        <div style="background:rgba(16,185,129,.1); border:1px solid rgba(16,185,129,.3); border-radius:8px; padding:0.8rem; margin-top:0.5rem;">
+          <div style="color:#10b981; font-weight:600; margin-bottom:0.4rem;">✅ ¡Reserva guardada exitosamente!</div>
+          <div style="color:var(--muted); font-size:0.9rem; line-height:1.4;">
+            <b>Periodo seleccionado:</b> ${opcionTexto}<br>
+            <b style="color:#d97706;">⚠️ Te recomendamos tomar un pantallazo como comprobante.</b>
+          </div>
+        </div>
+      `;
+      
+      renderTabla();
+      actualizarDisponibilidad();
+      mostrarToast('¡Reserva guardada con éxito! 📸 Toma un pantallazo');
+    });
+
+    btnEliminar.addEventListener('click', ()=>{
+      // La eliminación desde esta interfaz está restringida a administradores.
+      // Redirige al admin o muestra mensaje informativo.
+      mostrarToast('Solo el administrador puede eliminar reservas', 'error');
+      return;
+    });
+
+    // ----- Script: aplicar clase .selected a la tarjeta .periodo cuando su radio está checked -----
+    (function enhancePeriodoSelection(){
+      function updateSelection(){
+        document.querySelectorAll('.periodo').forEach(el => el.classList.remove('selected'));
+        document.querySelectorAll('#listaPeriodos input[type="radio"]').forEach(inp=>{
+          if(inp.checked){
+            const p = inp.closest('.periodo');
+            if(p) p.classList.add('selected');
+          }
+        });
+      }
+
+      document.addEventListener('change', function(e){
+        if(e.target && e.target.matches && e.target.matches('#listaPeriodos input[type="radio"]')){
+          setTimeout(updateSelection, 10);
+        }
+      }, true);
+
+      if(document.readyState === 'loading'){
+        document.addEventListener('DOMContentLoaded', updateSelection);
+      } else {
+        updateSelection();
+      }
+    })();
+
+    // Función para renderizar tabla de reservas
+    function renderTabla(){
+      reservas = leerReservas();
+      tablaReservas.innerHTML = '';
+      const contador = contarPersonasPorPeriodo();
+      
+      Object.values(reservas).forEach((r) => {
+        const tr = document.createElement('tr');
+        const fechaGuardado = new Date(r.guardadoEn || Date.now()).toLocaleString('es-CO');
+        const cantidadEnPeriodo = contador[r.periodoEtiqueta] || 0;
+        const estaLleno = cantidadEnPeriodo >= 8 ? '🔴 LLENO' : `${cantidadEnPeriodo}/8`;
+        
+        // Obtener periodos especiales del colaborador (fallback a N/A)
+        const especiales = (COLABORADORES[r.cedula] && COLABORADORES[r.cedula].periodosEspeciales) || ['N/A','N/A','N/A'];
+        const especialesHtml = especiales.map(e=> e && e.trim() ? e : 'N/A').join('<br>');
+
+        tr.innerHTML = ''
+          + '<td>' + r.cedula + '</td>'
+          + '<td style="min-width:160px;">' + especialesHtml + '</td>'
+          + '<td>' + r.periodoEtiqueta + '</td>'
+          + '<td>' + (cantidadEnPeriodo >= 8 ? '<span style="color:#dc2626; font-weight:600;">🔴 LLENO</span>' : '<span style="color:#16a34a;">' + cantidadEnPeriodo + '/8</span>') + '</td>'
+          + '<td>' + fechaGuardado + '</td>'
+          + '<td><button class="ghost" data-ced="' + r.cedula + '">Eliminar</button></td>';
+        tablaReservas.appendChild(tr);
+      });
+      
+      // Eliminar
+      $$('#tablaReservas button[data-ced]').forEach(btn=>{
+        btn.addEventListener('click', ()=>{
+          const c = btn.getAttribute('data-ced');
+          const conf = confirm(`¿Eliminar la reserva de la cédula ${c}?`);
+          if(conf){
+            delete reservas[c];
+            guardarReservas(reservas);
+            renderTabla();
+            actualizarDisponibilidad();
+            mostrarToast('Reserva eliminada');
+          }
+        });
+      });
+    }
+
+    // Modal de contraseña
+    const modalPassword = $('#modalPassword');
+    const inputPassword = $('#inputPassword');
+    const togglePassword = $('#togglePassword');
+    const btnModalConfirm = $('#btnModalConfirm');
+    const btnModalCancel = $('#btnModalCancel');
+    
+    function abrirModalPassword(){
+      modalPassword.classList.add('active');
+      inputPassword.value = '';
+      inputPassword.type = 'password';
+      togglePassword.textContent = '👁️';
+      inputPassword.focus();
+    }
+    
+    function cerrarModalPassword(){
+      modalPassword.classList.remove('active');
+      inputPassword.value = '';
+    }
+    
+    function verificarPassword(){
+      const password = inputPassword.value;
+      if(password === 'Belcorp123456'){
+        cerrarModalPassword();
+        window.location.href = 'admin.html';
+      } else {
+        mostrarToast('Contraseña incorrecta','error');
+        inputPassword.value = '';
+        inputPassword.focus();
+      }
+    }
+    
+    togglePassword.addEventListener('click', ()=>{
+      if(inputPassword.type === 'password'){
+        inputPassword.type = 'text';
+        togglePassword.textContent = '🙈';
+      } else {
+        inputPassword.type = 'password';
+        togglePassword.textContent = '👁️';
+      }
+    });
+    
+    btnModalConfirm.addEventListener('click', verificarPassword);
+    btnModalCancel.addEventListener('click', cerrarModalPassword);
+    inputPassword.addEventListener('keypress', (e)=>{
+      if(e.key === 'Enter') verificarPassword();
+    });
+    
+    // Botón de acceso administrador
+    btnAdmin.addEventListener('click', abrirModalPassword);
+    
+    // Cerrar modal al hacer clic fuera del contenido
+    modalPassword.addEventListener('click', (e)=>{
+      if(e.target === modalPassword) cerrarModalPassword();
+    });
+
+    // Inicial - cargar datos ANTES de permitir búsquedas
+    year.textContent = new Date().getFullYear();
+
+    // Intentar cargar datos desde JSON estático `vacaciones_2026.json`.
+    // Si no está disponible, `cargarDatos()` intentará usar la variable global DATOS_COLABORADORES (por compatibilidad).
+    (async function inicializarDatos(){
+      try{
+        const resp = await fetch('vacaciones_2026.json', {cache: 'no-store'});
+        if(resp.ok){
+          const json = await resp.json();
+          // Convertir cada registro al formato esperado por el código existente
+          // Campo esperado: { cedula, opciones: [...], periodosEspeciales: [...] }
+          window.DATOS_COLABORADORES = json.map(item => {
+            const opciones = [];
+            for(let i=1;i<=6;i++) opciones.push(item[`OPCION-${i}`] ?? 'N/A');
+            const periodosEspeciales = [];
+            for(let i=1;i<=3;i++) periodosEspeciales.push(item[`Periodo Especial-${i}`] ?? 'N/A');
+            return { cedula: item.cedula, opciones, periodosEspeciales };
+          });
+          console.log('✅ Datos cargados desde vacaciones_2026.json (', window.DATOS_COLABORADORES.length, 'registros)');
+        } else {
+          console.warn('vacaciones_2026.json no disponible (status=' + resp.status + '), usando variables globales');
+        }
+      } catch(err){
+        console.warn('No se pudo cargar vacaciones_2026.json, usando variables globales. Error:', err);
+      }
+
+      // Inicializar la app con los datos disponibles
+      try{ cargarDatos(); }catch(e){ console.error('Error en cargarDatos():', e); }
+      actualizarKpis();
+      renderTabla(); // Mostrar reservas al cargar
+    })();
+  </script>
+</body>
+</html>
