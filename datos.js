@@ -384,7 +384,7 @@
     "OPCION-4": "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
     "OPCION-5": "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
     "OPCION-6": "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
-    "Periodo Especial-1": "N/A",
+    "Periodo Especial-1": "PRUEBA",
     "Periodo Especial-2": "N/A",
     "Periodo Especial-3": "N/A",
     "": "."
