@@ -8,6 +8,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <script src="datos.js"></script>
   <script src="datos_periodos_especiales.js"></script>
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-database.js"></script>
 
   <style>
     :root{
@@ -469,7 +472,24 @@
     // Modo validación: permite todas las cédulas
     const MODO_VALIDACION = false;
 
-    // Clave de almacenamiento local
+    // Firebase Config
+    const firebaseConfig = {
+      apiKey: "AIzaSyCDiV9V8dTqENOYTll4BlmsYycBKBkyq94",
+      authDomain: "vacaciones-2026-72dfe.firebaseapp.com",
+      databaseURL: "https://vacaciones-2026-72dfe-default-rtdb.firebaseio.com",
+      projectId: "vacaciones-2026-72dfe",
+      storageBucket: "vacaciones-2026-72dfe.firebasestorage.app",
+      messagingSenderId: "204217759292",
+      appId: "1:204217759292:web:6412757ad2381f17e8b539"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.database();
+    const reservasRef = db.ref('reservas');
+    const bloqueadosRef = db.ref('bloqueados');
+
+    // Clave de almacenamiento local (ya no se usa, pero se mantiene por compatibilidad)
     const LS_KEY = 'vacaciones_reservas_v1';
 
     /* ============ UTILIDADES ============ */
@@ -485,26 +505,36 @@
     const hoyStr = () => new Date().toLocaleString('es-CO', { dateStyle:'medium', timeStyle:'short' });
 
     function leerReservas(){
-      try{
-        return JSON.parse(localStorage.getItem(LS_KEY)) || {};
-      }catch{ return {} }
+      return new Promise((resolve) => {
+        reservasRef.once('value', (snapshot) => {
+          resolve(snapshot.val() || {});
+        });
+      });
     }
+
     function guardarReservas(data){
-      localStorage.setItem(LS_KEY, JSON.stringify(data));
+      reservasRef.set(data).catch(err => console.error('Error guardando reservas:', err));
       actualizarKpis();
     }
 
     // --- Gestión de bloqueos (cedulas que no pueden modificar su reserva)
     const BLOQ_KEY = 'vacaciones_bloqueadas_v1';
+
     function leerBloqueados(){
-      try{ return JSON.parse(localStorage.getItem(BLOQ_KEY)) || {}; }catch{ return {}; }
+      return new Promise((resolve) => {
+        bloqueadosRef.once('value', (snapshot) => {
+          resolve(snapshot.val() || {});
+        });
+      });
     }
+
     function guardarBloqueados(obj){
-      localStorage.setItem(BLOQ_KEY, JSON.stringify(obj));
+      bloqueadosRef.set(obj).catch(err => console.error('Error guardando bloqueados:', err));
     }
-    function estaBloqueado(ced){
+
+    async function estaBloqueado(ced){
       if(!ced) return false;
-      const b = leerBloqueados();
+      const b = await leerBloqueados();
       return !!b[String(ced)];
     }
 

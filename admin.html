@@ -216,7 +216,28 @@
   <!-- Toast -->
   <div id="toast" class="toast" role="status"></div>
 
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-database.js"></script>
+
   <script>
+    // Firebase Config
+    const firebaseConfig = {
+      apiKey: "AIzaSyCDiV9V8dTqENOYTll4BlmsYycBKBkyq94",
+      authDomain: "vacaciones-2026-72dfe.firebaseapp.com",
+      databaseURL: "https://vacaciones-2026-72dfe-default-rtdb.firebaseio.com",
+      projectId: "vacaciones-2026-72dfe",
+      storageBucket: "vacaciones-2026-72dfe.firebasestorage.app",
+      messagingSenderId: "204217759292",
+      appId: "1:204217759292:web:6412757ad2381f17e8b539"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.database();
+    const reservasRef = db.ref('reservas');
+    const bloqueadosRef = db.ref('bloqueados');
+
     // Utilidades
     const $ = (sel) => document.querySelector(sel);
     const $$ = (sel) => document.querySelectorAll(sel);
@@ -247,35 +268,37 @@
     const btnLimpiarFiltro = $('#btnLimpiarFiltro');
     const resumenPeriodos = $('#resumenPeriodos');
 
-    // Leer reservas del localStorage con validación
+    // Leer reservas de Firebase en tiempo real
     function leerReservas(){
-      const stored = localStorage.getItem('vacaciones_reservas_v1');
-      if(!stored) return {};
-      try {
-        const data = JSON.parse(stored);
-        return typeof data === 'object' && data !== null ? data : {};
-      } catch(e) {
-        console.error('Error al parsear reservas:', e);
-        mostrarToast('Error al cargar datos', 'error');
-        return {};
-      }
+      return new Promise((resolve) => {
+        reservasRef.once('value', (snapshot) => {
+          const data = snapshot.val() || {};
+          resolve(typeof data === 'object' && data !== null ? data : {});
+        });
+      });
     }
 
-    // Bloqueos: mapa de cédulas que no pueden volver a entrar/modificar
+    // Escuchar cambios en tiempo real
+    reservasRef.on('value', (snapshot) => {
+      reservas = snapshot.val() || {};
+      actualizarBloqueosDesdeReservas();
+      renderTablaAdmin();
+      renderResumenPeriodos();
+      actualizarEstadisticas();
+    });
+
+    // Leer bloqueados de Firebase
     function leerBloqueados(){
-      const stored = localStorage.getItem('vacaciones_bloqueadas_v1');
-      if(!stored) return {};
-      try {
-        const data = JSON.parse(stored);
-        return typeof data === 'object' && data !== null ? data : {};
-      } catch(e) {
-        console.error('Error al parsear bloqueados:', e);
-        return {};
-      }
+      return new Promise((resolve) => {
+        bloqueadosRef.once('value', (snapshot) => {
+          const data = snapshot.val() || {};
+          resolve(typeof data === 'object' && data !== null ? data : {});
+        });
+      });
     }
 
     function guardarBloqueados(obj){
-      localStorage.setItem('vacaciones_bloqueadas_v1', JSON.stringify(obj));
+      bloqueadosRef.set(obj).catch(err => console.error('Error al guardar bloqueados:', err));
       bloqueadosCache = obj;
     }
 
@@ -431,7 +454,7 @@
       if(!confirm(`¿Eliminar la reserva de la cédula ${cedula}?`)) return;
       
       delete reservas[cedula];
-      localStorage.setItem('vacaciones_reservas_v1', JSON.stringify(reservas));
+      reservasRef.set(reservas).catch(err => console.error('Error al eliminar:', err));
       actualizarBloqueosDesdeReservas();
       renderTablaAdmin(filtroTexto);
       renderResumenPeriodos();
@@ -641,12 +664,7 @@
 
     // Inicialización
     $('#year').textContent = new Date().getFullYear();
-    bloqueadosCache = leerBloqueados();
-    reservas = leerReservas();
-    actualizarBloqueosDesdeReservas();
-    renderTablaAdmin();
-    renderResumenPeriodos();
-    actualizarEstadisticas();
+    // Firebase listeners ya están configurados arriba y cargarán los datos automáticamente
   </script>
 </body>
 </html>
