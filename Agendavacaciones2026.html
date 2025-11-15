@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Reserva tus vacaciones — # Somos-Cercanos</title>
-  <meta description="Portal para que los colaboradores reserven su periodo de vacaciones." />
+  <meta name="description" content="Portal para que los colaboradores reserven su periodo de vacaciones." />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <script src="datos.js"></script>
   <!-- Nota: se eliminó referencia a datos_periodos_especiales.js (no existe en el repo) -->
@@ -91,10 +91,26 @@
     }
     .grid{ display:grid; gap:1rem }
     .col-2{ grid-template-columns: 2fr 1fr; }
+    @media (max-width:600px){ .col-2{ grid-template-columns: 1fr } }
     .input-row{ display:flex; gap:.6rem; align-items:center; }
     input, button, select{
       border-radius:12px; border:1px solid var(--border); background:var(--card); color:var(--text);
       padding:.9rem 1rem; font-size:1rem; min-height: 44px;
+    }
+
+    /* Campos de búsqueda más delineados para visibilidad (borde negro) */
+    .input-delineado{
+      border: 1.5px solid rgba(0,0,0,0.75); /* borde negro más visible */
+      background: linear-gradient(180deg, #ffffff, #f8fafc);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.04), 0 8px 18px rgba(0,0,0,0.03);
+      transition: border-color .12s ease, box-shadow .15s ease, transform .06s ease;
+      border-radius: 12px;
+    }
+    .input-delineado:focus{
+      outline: none;
+      border-color: rgba(0,0,0,0.95); /* borde negro al foco */
+      box-shadow: 0 12px 30px rgba(0,0,0,0.08), 0 0 0 4px rgba(47,128,237,0.06);
+      transform: translateY(-1px);
     }
     input::placeholder{ color:var(--muted) }
     button{
@@ -187,7 +203,6 @@
     @media (max-width:500px){ .img-wrap{ min-height: 120px } .img-wrap.card{ padding: 16px } }
     .img-wrap .logo-spot{ width:220px; height:220px; border-radius:18px; display:flex; align-items:center; justify-content:center; background: #ffffff; box-shadow:0 18px 48px rgba(15,23,36,.06); border:1px solid var(--border); padding:18px; }
     .img-wrap .logo-spot img{ max-width:80%; height:auto; display:block; filter:none; background:transparent; }
-    .kpi{ display:flex; gap:1rem; flex-wrap:wrap; margin-top:.6rem }
     .kpi{ display:flex; gap:1rem; flex-wrap:wrap; margin-top:.6rem }
     /* KPIs más visibles: fondo suave, sombra, mayor tamaño y contraste */
     .kpi > div{
@@ -291,6 +306,30 @@
     .modal-btn-confirm:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(139,124,246,.25); }
     .modal-btn-cancel { background: transparent; border: 1px solid var(--border); color: var(--text); }
     .modal-btn-cancel:hover { background: var(--glass); border-color: var(--primary); }
+    
+    /* Mejoras de estilo para Información al pie en móvil */
+    @media (max-width:600px){
+      #sectionPeriodos aside.card{ padding: 1rem; border-top: 2px solid var(--primary) }
+      #sectionPeriodos aside.card h3{ font-size: 1.1rem; margin: 0 0 0.8rem 0 }
+      #sectionPeriodos aside.card ul{ margin: 0; padding-left: 1.2rem }
+      #sectionPeriodos aside.card li{ font-size: 0.9rem; line-height: 1.4; margin-bottom: 0.6rem }
+    }
+    @media (max-width:500px){
+      #sectionPeriodos aside.card{ padding: 0.9rem; margin-top: 1rem }
+      #sectionPeriodos aside.card h3{ font-size: 1rem }
+      #sectionPeriodos aside.card ul{ padding-left: 1rem }
+      #sectionPeriodos aside.card li{ font-size: 0.85rem; margin-bottom: 0.5rem }
+    }
+    /* Forzar apilado en móvil: periodos arriba, información al final */
+    @media (max-width:600px){
+      /* Aseguramos que la sección esté en columna y los bloques ocupen 100% */
+      #sectionPeriodos{ display:flex; flex-direction:column; align-items:stretch; gap:0.6rem }
+      #sectionPeriodos .periodos, #sectionPeriodos #boxPeriodosEspeciales, #sectionPeriodos .input-row{ width:100%; }
+      /* Forzar que el aside quede al final y ocupe toda la anchura */
+      #sectionPeriodos aside.card{ order: 9999; width:100%; grid-column: 1 / -1; margin-top:1rem }
+      /* Seguridad adicional contra estilos heredados */
+      #sectionPeriodos aside.card { float:none !important; display:block !important }
+    }
   </style>
 </head>
 <body>
@@ -299,7 +338,7 @@
       <div class="brand">
         <!-- Logo que compartiste -->
         <img src="images/Logo.jpg" alt="Logo" style="height:36px;width:auto;">
-        <span>Vacaciones</span>
+        <span>Vacaciones Almacen Enem</span>
       </div>
       <button id="btnAdmin" class="ghost" style="font-size:0.9rem; padding:0.5rem 1rem; border-radius:8px; background:rgba(139,124,246,.1); border:1px solid rgba(139,124,246,.3); color:#8b7cf6; cursor:pointer; font-weight:600;">🔐 Admin</button>
     </div>
@@ -314,7 +353,7 @@
 
         <!-- Buscador de cédula -->
         <div class="input-row" style="margin-top:.6rem">
-          <input id="cedula" inputmode="numeric" minlength="5" maxlength="12" placeholder="Escribe tu cédula…" aria-label="Cédula del colaborador" />
+          <input id="cedula" class="input-delineado" inputmode="numeric" minlength="5" maxlength="12" placeholder="Escribe tu cédula…" aria-label="Cédula del colaborador" />
           <button id="btnBuscar" class="primary">Buscar</button>
         </div>
 
@@ -335,35 +374,32 @@
 
     <!-- Sección Periodos -->
     <section id="sectionPeriodos" class="card hidden" aria-live="polite" aria-labelledby="periodos-title">
-      <div class="grid col-2" style="gap:1rem; align-items:center;">
-        <div>
-          <h2 id="periodos-title">Elige tu periodo</h2>
-          <p class="muted" id="subCédula"></p>
-          <div id="mensajeReserva" class="muted"></div>
+      <h2 id="periodos-title">Seleccione un periodo</h2>
+      <p class="muted" id="subCédula"></p>
+      <div id="mensajeReserva" class="muted"></div>
 
-          <div id="listaPeriodos" class="periodos"><!-- Radios dinámicos --></div>
+      <div id="listaPeriodos" class="periodos"><!-- Radios dinámicos --></div>
 
-          <!-- Contenedor para mostrar los 3 periodos especiales (si existen) -->
-          <div id="boxPeriodosEspeciales" style="margin-top:1rem;">
-            <!-- Rellenado dinámicamente -->
-          </div>
-
-          <div class="input-row" style="margin-top:1rem;">
-            <button id="btnReservar" class="primary">Reservar</button>
-            <button id="btnEliminar" class="ghost" style="display:none; background-color: rgba(239,68,68,.1); border-color: rgba(239,68,68,.3); color:#dc2626;">Eliminar reserva</button>
-          </div>
-        </div>
-
-        <aside class="card">
-            <h3 style="margin-top:0">Información</h3>
-            <ul class="muted">
-              <li>Se muestran 6 opciones de vacaciones en periodos habituales.</li>
-              <li>Se muestran 3 opciones de vacaciones en periodos especiales, (si cumple con los requisitos).</li>
-              <li>Elige uno y toma un pantallazo como comprobante.</li>
-              <li>Si tienes dudas o inconvenientes con tu reserva, comunícate con tu líder.</li>
-            </ul>
-        </aside>
+      <!-- Contenedor para mostrar los 3 periodos especiales (si existen) -->
+      <div id="boxPeriodosEspeciales" style="margin-top:1rem;">
+        <!-- Rellenado dinámicamente -->
       </div>
+
+      <div class="input-row" style="margin-top:1rem;">
+        <button id="btnReservar" class="primary">Reservar</button>
+        <button id="btnEliminar" class="ghost" style="display:none; background-color: rgba(239,68,68,.1); border-color: rgba(239,68,68,.3); color:#dc2626;">Eliminar reserva</button>
+      </div>
+
+      <!-- INFORMACIÓN al final -->
+      <aside class="card" style="margin-top:1.5rem;">
+        <h3 style="margin-top:0">Información</h3>
+        <ul class="muted">
+          <li>Se muestran 6 opciones de vacaciones en periodos habituales.</li>
+          <li>Se muestran 3 opciones de vacaciones en periodos especiales, (si cumple con los requisitos).</li>
+          <li>Elige uno y toma un pantallazo como comprobante.</li>
+          <li>Si tienes dudas o inconvenientes con tu reserva, comunícate con tu líder.</li>
+        </ul>
+      </aside>
     </section>
 
     <!-- Panel de Lideres -->
@@ -764,6 +800,8 @@
               <strong>📋 Esta es la visualización de la reserva en el periodo de vacaciones que ya elegiste, NO SE PUEDE MODIFICAR</strong>
             </div>
           `;
+          // Mostrar título como seleccionado cuando ya hay una reserva bloqueada
+          try{ const t = document.getElementById('periodos-title'); if(t) t.textContent = 'Periodo seleccionado'; }catch(e){}
         } else {
           listaPeriodos.innerHTML = '';
           mensajeReserva.innerHTML = `
@@ -799,10 +837,14 @@
         btnReservar.disabled = true;
         btnReservar.style.display = 'none';
         btnEliminar.style.display = 'none';
+        // Ajustar título cuando ya existe una reserva
+        try{ const t = document.getElementById('periodos-title'); if(t) t.textContent = 'Periodo seleccionado'; }catch(e){}
       } else {
           // Mostrar opciones para elegir período: unir las 6 opciones y los 3 especiales
           const combinados = [...opcionesDelColaborador, ...periodosEspeciales];
           renderPeriodosCombinados(combinados);
+          // Asegurar título (fijo)
+          try{ const t = document.getElementById('periodos-title'); if(t) t.textContent = 'Seleccione un periodo'; }catch(e){}
         btnReservar.disabled = false;
         btnReservar.style.display = 'inline-block';
         btnEliminar.style.display = 'none'; // Ocultar botón eliminar
@@ -871,7 +913,8 @@
       // Deshabilitar botones
       btnReservar.disabled = true;
       btnReservar.style.display = 'none';
-      btnLimpiar.style.display = 'none';
+      // Actualizar título al confirmar la reserva
+      try{ const t = document.getElementById('periodos-title'); if(t) t.textContent = 'Periodo seleccionado'; }catch(e){}
       
       // Aviso mejorado con recomendación de pantallazo
       mensajeReserva.innerHTML = `
@@ -906,6 +949,14 @@
             if(p) p.classList.add('selected');
           }
         });
+        // Actualizar título según si hay una opción seleccionada
+        try{
+          const titleEl = document.getElementById('periodos-title');
+          const haySeleccion = !!document.querySelector('#listaPeriodos input[type="radio"]:checked');
+          if(titleEl){
+            titleEl.textContent = haySeleccion ? 'Periodo seleccionado' : 'Seleccione un periodo';
+          }
+        }catch(e){ console.error('Error actualizando título de periodos:', e); }
       }
 
       document.addEventListener('change', function(e){
@@ -982,16 +1033,22 @@
       inputPassword.value = '';
     }
     
+    // Nota: la verificación de administrador en cliente con contraseña en claro es insegura.
+    // Por seguridad la verificación cliente está deshabilitada por defecto. Para habilitarla,
+    // establecer `ADMIN_PASS` a una cadena — NO recomendado en producción.
+    const ADMIN_PASS = 'Belcorp123456'; // contraseña restaurada (NO recomendado en producción)
+    
     function verificarPassword(){
-      const password = inputPassword.value;
-      if(password === 'Belcorp123456'){
+      const password = inputPassword.value || '';
+      if(ADMIN_PASS && password === ADMIN_PASS){
         cerrarModalPassword();
         window.location.href = 'admin.html';
-      } else {
-        mostrarToast('Contraseña incorrecta','error');
-        inputPassword.value = '';
-        inputPassword.focus();
+        return;
       }
+      // Si no hay ADMIN_PASS configurada, informar al usuario y cerrar modal.
+      cerrarModalPassword();
+      mostrarToast('Acceso administrador deshabilitado. Contacta al equipo de TI para acceso seguro.','error');
+      inputPassword.value = '';
     }
     
     togglePassword.addEventListener('click', ()=>{
