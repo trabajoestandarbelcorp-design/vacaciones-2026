@@ -530,7 +530,7 @@ const DATOS_COLABORADORES = [
     {
         "cedula":  "80542428",
         "opciones":  [
-                         "PERIODO-1 = Fecha Salida =jueves, 22 de enero de 2026 --- Fecha Regreso = jueves, 12 de febrero de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
                          "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
                          "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
                          "PERIODO-2 = Fecha Salida =miércoles, 11 de febrero de 2026 --- Fecha Regreso = miércoles, 4 de marzo de 2026",
