@@ -2027,7 +2027,7 @@ const DATOS_COLABORADORES = [
                      ],
         "periodosEspeciales":  [
                                    "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026",
-                                   "N/A",
+                                   "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
                                    "N/A"
                                ]
     }
