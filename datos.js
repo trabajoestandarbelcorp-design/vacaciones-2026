@@ -1738,7 +1738,7 @@ const DATOS_COLABORADORES = [
                          "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026"
                      ],
         "periodosEspeciales":  [
-                                   "----",
+                                   "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026",
                                    "----",
                                    "----"
                                ]
