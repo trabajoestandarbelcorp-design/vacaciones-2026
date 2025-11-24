@@ -218,7 +218,7 @@ const DATOS_COLABORADORES = [
                          "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026"
                      ],
         "periodosEspeciales":  [
-                                   "----",
+                                   "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026",
                                    "----",
                                    "----"
                                ]
@@ -730,7 +730,7 @@ const DATOS_COLABORADORES = [
                          "PERIODO-10 = Fecha Salida =miércoles, 12 de agosto de 2026 --- Fecha Regreso = jueves, 3 de septiembre de 2026"
                      ],
         "periodosEspeciales":  [
-                                   "PERIODO-4 Especial semana santa = Fecha Salida =jueves, 26 de marzo de 2026 --- Fecha Regreso = lunes, 20 de abril de 2026",
+                                   "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026",
                                    "PERIODO-7 Especial Vac Mitad Año = Fecha Salida =miércoles, 3 de junio de 2026 --- Fecha Regreso = viernes, 26 de junio de 2026",
                                    "PERIODO-8 Especial Vac Mitad Año = Fecha Salida =viernes, 26 de junio de 2026 --- Fecha Regreso = martes, 21 de julio de 2026"
                                ]
