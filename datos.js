@@ -1402,7 +1402,7 @@ const DATOS_COLABORADORES = [
                          "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026"
                      ],
         "periodosEspeciales":  [
-                                   "----",
+                                   "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
                                    "----",
                                    "----"
                                ]
@@ -1722,7 +1722,7 @@ const DATOS_COLABORADORES = [
                          "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026"
                      ],
         "periodosEspeciales":  [
-                                   "----",
+                                   "PERIODO-15 Especial Fin de Año = Fecha Salida =miércoles, 2 de diciembre de 2026 --- Fecha Regreso = lunes, 28 de diciembre de 2026",
                                    "----",
                                    "----"
                                ]
