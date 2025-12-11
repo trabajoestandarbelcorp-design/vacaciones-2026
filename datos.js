@@ -219,7 +219,7 @@ const DATOS_COLABORADORES = [
                      ],
         "periodosEspeciales":  [
                                    "PERIODO-12 Especial Semana de Receso = Fecha Salida =jueves, 24 de septiembre de 2026 --- Fecha Regreso = viernes, 16 de octubre de 2026",
-                                   "----",
+                                   "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027",
                                    "----"
                                ]
     },
