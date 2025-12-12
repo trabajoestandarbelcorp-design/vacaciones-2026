@@ -2047,4 +2047,20 @@ const DATOS_COLABORADORES = [
                                    "PERIODO-16 Especial Fin de Año = Fecha Salida =lunes, 28 de diciembre de 2026 --- Fecha Regreso = jueves, 21 de enero de 2027"
                                ]
     }
+    {
+        "cedula":  "1075670062",
+        "opciones":  [
+                         "PERIODO-11 = Fecha Salida =jueves, 3 de septiembre de 2026 --- Fecha Regreso = jueves, 24 de septiembre de 2026",
+                         "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
+                         "PERIODO-3 = Fecha Salida =miércoles, 4 de marzo de 2026 --- Fecha Regreso = jueves, 26 de marzo de 2026",
+                         "PERIODO-5 = Fecha Salida =lunes, 20 de abril de 2026 --- Fecha Regreso = martes, 12 de mayo de 2026",
+                         "PERIODO-6 = Fecha Salida =martes, 12 de mayo de 2026 --- Fecha Regreso = miércoles, 3 de junio de 2026",
+                         "PERIODO-9 = Fecha Salida =martes, 21 de julio de 2026 --- Fecha Regreso = miércoles, 12 de agosto de 2026"
+                     ],
+        "periodosEspeciales":  [
+                                   "----",
+                                   "----",
+                                   "----"
+                               ]
+    }
 ];
