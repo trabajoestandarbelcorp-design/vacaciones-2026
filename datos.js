@@ -32,7 +32,7 @@ const DATOS_COLABORADORES = [
                                ]
     },
     {
-        "cedula":  "1012325826",
+        "cedula":  "11111111",
         "opciones":  [
                          "PERIODO-14 = Fecha Salida =martes, 10 de noviembre de 2026 --- Fecha Regreso = miércoles, 2 de diciembre de 2026",
                          "PERIODO-13 = Fecha Salida =lunes, 19 de octubre de 2026 --- Fecha Regreso = martes, 10 de noviembre de 2026",
